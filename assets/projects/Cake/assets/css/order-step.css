@@ -1,0 +1,161 @@
+section#order-step{
+	padding: 25px 115px;
+	background-color: #f7f7f7;
+	font-family: 'ralewaybold';
+}
+
+section#order-step ul {
+	text-align: center;
+}
+
+section#order-step ul li {
+	display: inline-block;
+	width: 20%;
+	position: relative;
+	margin: 45px;
+	vertical-align: text-top;
+}
+
+section#order-step ul li img {
+	width: 120px;
+}
+
+section#order-step ul li h4 {
+	font-size: 1.3em;
+	color:  #0a4d80;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+section#order-step ul li p {
+	font-family: 'ralewayregular';
+	color: #222222;
+}
+
+section#order-step ul li #arcs div.arrow-top{
+	position: absolute;
+	top: -25px;
+	right: -90px;
+}
+
+section#order-step ul li #arcs div.arrow-top {
+    border: 1px dashed #094d7f; 
+    display: inline-block;
+    width: 94px; 
+   	height: 94px; 
+    border-radius: 50%; 
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+section#order-step ul li #arcs div.arrow-top:after {
+	content: '>';
+	display: block;
+	color: #094d7f;
+	font-size: 1em;
+	position: absolute;
+	top:4px;
+	left:78px;
+	transform: rotate(45deg);
+}
+
+section#order-step ul li #arcs div.arrow-bottom{
+	position: absolute;
+	bottom: -25px;
+	right: -90px;
+}
+
+section#order-step ul li #arcs div.arrow-bottom {
+    border: 1px dashed #094d7f; 
+    display: inline-block;
+    width: 94px;
+   	height: 94px; 
+    border-radius: 50%; 
+    border-right-color: transparent; 
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+section#order-step ul li #arcs div.arrow-bottom:after {
+	content: '>';
+	display: block;
+	color: #094d7f;
+	font-weight: bolder;
+	font-size: 1em;
+	position: absolute;
+	top:69px;
+	left:74px;
+	transform: rotate(-45deg);
+}
+
+
+/*Responsive*/
+@media only screen and (min-width:2100px) {
+	section#order-step {
+		padding: 25px 450px;
+	}
+}
+
+@media only screen and (min-width:1700px) {
+	section#order-step {
+		padding: 25px 300px;
+	}
+}
+
+@media only screen and (max-width:800px) {
+
+	section#order-step ul li {
+		width: 80%;
+		margin: 25px;
+	}
+
+	section#order-step ul li h4 {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+	section#order-step ul li p {
+		padding: 0 40px;
+	}
+
+	section#order-step ul li #arcs div.arrow-top {
+	  	border-right-color:  #094d7f;
+	    border-top-color: transparent; 
+	}
+
+	section#order-step ul li #arcs div.arrow-top{
+		top: unset;
+		bottom: -65px;
+		right: 0px;
+	}
+
+	section#order-step ul li #arcs div.arrow-top:after {
+		content: '<';
+		top: 69px;
+		left: 74px;
+		transform: rotate(-45deg);
+	}
+
+	section#order-step ul li #arcs div.arrow-bottom{
+		bottom: -65px;
+		left: 0px;
+	}
+
+	section#order-step ul li #arcs div.arrow-bottom {
+	    border-bottom-color: transparent;
+	    border-left-color: #094d7f;;
+	}
+
+	section#order-step ul li #arcs div.arrow-bottom:after {
+		top: 69px;
+		left: 10px;
+		transform: rotate(45deg);
+	}
+}
+
+@media only screen and (max-width:480px) {
+	section#order-step {
+		padding: 25px 0;
+	}
+}

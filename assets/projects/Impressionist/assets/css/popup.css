@@ -1,0 +1,215 @@
+@keyframes appear {
+	0% {
+		width: 200px;
+		opacity: 0;
+	}
+	10% {
+		width: 245px;
+		height: 45px;
+		opacity: 0.2;
+	}
+	20%{
+		width: 290px;
+		height: 90px;
+		opacity: 0.3;
+	}
+	30%{
+		width: 335px;
+		height: 135px;
+		opacity: 0.4;
+	}
+	40%{
+		width: 380px;
+		height: 180px;
+		opacity: 0.5;
+	}
+	50%{
+		width: 425px;
+		height: 225px;
+		opacity: 0.5;
+	}
+	60%{
+		width: 470px;
+		height: 260px;
+		opacity: 0.6;
+	}
+	70%{
+		width: 515px;
+		height: 305px;
+		opacity: 0.7;
+	}
+	80%{
+		width: 560px;
+		height: 350px;
+		opacity: 0.8;
+	}
+	90%{
+		width: 605px;
+		height: 395px;
+		opacity: 0.9;
+	}
+	100%{
+		width: 650px;
+		height: 450px;
+		opacity: 1;
+	}
+}
+
+.modal {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(55,55,55,0.7);
+	z-index: 500;
+}
+
+.modal-shell {
+	max-width: 650px;
+	max-height: 450px;
+	background: #e2e2e2;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 8px;
+	box-shadow: 0 14px 45px 4px rgba(0, 0, 0, 0.7);
+	padding-bottom: 100px;
+	animation: appear 0.3s;
+}
+
+.modal-shell .content img {
+	height: 225px;
+    position: absolute;
+    top: 85px;
+    right: 2px;
+}
+
+.modal-shell .footer {
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;	
+	font-family: 'cinzelbold';
+}
+
+.modal-shell > div {
+	padding: 26px 40px;
+}
+
+.modal-shell h4{
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color:	#858686;
+	font-family: 'cinzelbold';
+}
+
+.modal-shell p {
+	line-height: 28px;
+	font-family: 'cinzelbold';
+}
+
+.modal-shell > button {
+	background: none;
+	padding: 0;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+
+	right: 26px;
+	top: 26px;
+}
+
+.modal-shell > button:after,
+.modal-shell > button:before {
+	content: ''; 
+	display: block;
+	width: 35px;
+	height: 4px;
+	background: #858686;
+	position: absolute;
+	bottom: 16px;
+	
+}
+
+.modal-shell > button:before {
+	left: 0;
+	transform: rotate(45deg);
+	transition: 0.5s;
+}
+
+.modal-shell > button:after {
+	right: 0;
+	transform: rotate(135deg);
+	transition: 0.3s;
+}
+
+.modal-shell > button:hover:before {
+	transform: rotate(180deg)
+}
+
+.modal-shell > button:hover:after {
+	transform: rotate(180deg)
+}
+
+.modal-shell .footer button {
+	padding: 0;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	padding: 8px 16px;
+
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 3px;
+	transition: 0.3s;
+	margin-right: 10px; 
+}
+
+.btn_blue {
+	background: #e2494b;
+}
+
+.btn_blue:hover {
+	background: #f36a6c;
+}
+
+.btn_green {
+	background: #4a8f3a;
+}
+
+.btn_green:hover {
+	background: #5e9651;
+}
+
+@media only screen and (max-width: 768px) {
+	.modal-shell p {
+		display: none;
+	}
+	.modal-shell {
+	max-width: auto;
+	max-height: auto;
+	background: #e2e2e2;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 8px;
+	box-shadow: 0 14px 45px 4px rgba(0, 0, 0, 0.7);
+	padding-bottom: 100px;
+	}
+}

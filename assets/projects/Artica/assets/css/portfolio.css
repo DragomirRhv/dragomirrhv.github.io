@@ -1,0 +1,466 @@
+#portfolio .title h2 {
+	color: #3d506f;
+	font-size: 30px;
+	font-family: 'latoregular';
+	margin-bottom: 25px;
+}
+
+#portfolio > div:nth-child(2) {
+	margin-bottom: 60px;
+}
+
+#portfolio .wrap.portfolio {
+	margin-bottom: 60px;
+}
+
+#portfolio .title p {
+	font-size: 15px;
+	color: #7f90a5;
+	font-family: 'latoregular';
+	margin-bottom: 65px;
+}
+
+#portfolio .title {
+	padding: 0  190px;
+}
+
+#portfolio .title ul {
+	text-align: center;
+	margin-bottom: 68px;
+}
+
+#portfolio .title ul > li {
+	display: inline-block;
+	width: auto;
+	margin-right: 20px;
+}
+
+#portfolio .title ul li:last-child {
+	margin-right: none;
+}
+
+#portfolio .title ul > li a:visited,
+#portfolio .title ul > li a:focus,
+#portfolio .title ul > li a:hover,
+#portfolio .title ul > li a {
+	text-decoration: none;
+	outline: none;
+}
+
+
+
+#portfolio .title ul > li a {
+	font-size: 20px;
+	font-family: 'latoregular';
+	color: #fff;
+	background: #3d506f;
+	padding: 10px 22px 10px 23px;
+	text-transform: uppercase; 
+}
+
+#portfolio .title ul li a:hover {
+	background-color: #00c7fb;
+}
+
+
+.images ul > li {
+	display: inline-block;
+}
+
+.images #image {
+	margin-right: 0px;
+}
+
+.images ul li div {
+	height: 200px;
+	width: 270px;
+	background-color: #546278;
+	margin-right: 10px;
+}
+
+section .portfolio .image-frame .image-box {
+	position: relative;
+	cursor: pointer;
+}
+
+section .portfolio .image-frame div.img-hover {
+	position: absolute;
+	top: 49%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(34,44,64,0.8);
+	padding: 75px 65px;
+	opacity: 0;
+	transition: .3s ease;
+	height: 97%;
+	width: 93%;
+}
+
+section .portfolio .image-frame div.img-hover h4 {
+	font-size: 20px;
+	color: #fff;
+	font-family: 'latobold';
+}
+
+section .portfolio .image-frame div.img-hover h5 {
+	font-size: 15px;
+	color: #fff;
+	font-family: 'lato_lightregular';
+}
+
+section .portfolio .image-frame div.img-hover:hover {
+	opacity: 0.8;
+}
+
+
+.wrap.show-section {
+	width: 100%;
+	background: #161f32;
+	display: none;
+	height: 490px;
+	padding: 35px;
+	position: relative;
+}
+
+.info {
+	text-align: left;
+	padding: 0px 0px 0px 15px;
+
+}
+
+.info ul li:first-child {
+	border-bottom: 1px solid #fff;
+	margin-bottom: 20px;
+}
+
+.info h2 {
+	color: #fff;
+	font-size: 22px;
+	font-family: 'latobold';
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+.info p {
+	color: #fff;
+	font-size: 15px;
+	font-family: 'lato_lightregular';
+	margin-bottom: 20px;
+}
+
+
+.info h4 {
+	color: #fff;
+	font-size: 14px;
+	font-family: 'latoregular';
+	margin-bottom: 10px;
+	position: relative;
+	padding-left: 25px;
+}
+
+.info h4:nth-child(3) {
+	margin-bottom: 35px;
+}
+
+.info h4 img {
+	margin-right: 15px;
+	position: absolute;
+	left: 0;
+	top: 2px;
+}
+
+.info ul li a {
+	font-size: 15px;
+	color: #fff;
+	font-family: 'latoregular';
+	padding: 15px 40px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	outline: none;
+}
+
+#portfolio .wrap .container-fluid .our-work button {
+	background: none;
+	outline: none;
+	border: none;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	background: #3d506f;
+	margin: 0 auto;	
+	margin-bottom: 66px;
+}
+
+#portfolio .wrap .container-fluid .our-work {
+	padding: 0 170px 0 170px;
+}
+
+#portfolio .wrap .container-fluid .our-work button:hover {
+	background: #00c7fb;
+}
+
+#portfolio .wrap .container-fluid .our-work h2 {
+	font-size: 30px;
+	font-family: 'latoregular';
+	color: #3d506f;
+	margin-bottom: 25px;
+}
+
+#portfolio .wrap .container-fluid .our-work button img {
+	height: 23px;
+	width: 23px;
+}
+
+#portfolio .wrap .container-fluid .our-work p {
+	font-size: 15px;
+	font-family: 'latoregular';
+	color: #7f90a5;
+	margin-bottom: 46px;
+}
+
+#portfolio .wrap .container-fluid .our-work a {
+	color: #fff;
+	font-size: 13px;
+	font-family: 'latoregular';
+	text-decoration: none;
+	outline: none;
+	padding: 20px 32px;
+	background: #3d506f;
+	margin-bottom: 46px;
+}
+
+#portfolio .wrap .container-fluid .our-work a:hover,
+#portfolio .wrap .container-fluid .our-work a:visited,
+#portfolio .wrap .container-fluid .our-work a:focus,
+#portfolio .wrap .container-fluid .our-work a {
+	text-decoration: none;
+	outline: none;
+}
+
+#portfolio .wrap .container-fluid .our-work a:hover {
+	background: #00c7fb;
+}
+
+
+/* Responsive */
+
+/*Large -lg*/
+/*Customize */
+
+@media only screen and (max-width: 1250px) {
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+	section .portfolio .image-frame {
+		margin: 15px;
+	}
+
+	section .portfolio .image-frame .image-box img {
+		width: 100%;
+		height: auto;
+	}
+
+	section .portfolio .image-frame div.img-hover {
+		width: 100%;
+		height: 97%;
+	}
+
+	#portfolio .wrap.show-section .container-fluid div.image-holder img{
+		width: 100%;
+	}
+
+
+/*Medium -md*/
+@media only screen and (max-width: 992px) {
+	#portfolio .title {
+		padding: 0px 40px;
+	}
+	.info h4 {
+		margin-bottom: 0px;
+	}
+	.info ul li:first-child {
+		margin-bottom: 10px;
+	}
+	.info p {
+		margin-bottom: 10px;
+	}
+	.info h2 {
+		margin-bottom: 15px;
+	}
+
+	section .portfolio .image-frame {
+		margin: 25px;
+	}
+
+	section .portfolio .image-frame .image-box img {
+		width: 80%;
+		height: auto;
+	}
+
+	section .portfolio .image-frame div.img-hover {
+		width: 80%;
+		height: 98%;
+	}
+
+	#portfolio .wrap.show-section {
+		height: auto;
+		padding: 45px 160px;
+	}
+
+
+	#portfolio .wrap.show-section .container-fluid div.image-holder img {
+		width: 100%;
+	}
+
+	#portfolio .wrap.show-section .container-fluid div.image-holder {
+		margin-bottom: 30px;
+	}
+
+	.info {
+
+	padding: 0px;
+
+	}
+
+	#portfolio .wrap .container-fluid .our-work {
+		padding: 0px 40px;
+	}
+	section .portfolio .image-frame div.img-hover h4 {
+		font-size: 30px;
+    	position: absolute;
+    	left: 0;
+    	top: 50%;
+    	transform: translateY(-50%);
+    	width: 100%;
+	}
+	section .portfolio .image-frame div.img-hover h5 {
+		font-size: 20px;
+    	position: absolute;
+    	left: 0;
+    	top: 50%;
+    	transform: translateY(50%);
+    	width: 100%;
+	}
+}
+
+/*Customize*/
+@media only screen and (max-width: 850px) {
+	
+}
+
+
+/*Small -sm*/
+@media only screen and (max-width: 768px) {
+
+	#portfolio .title ul > li {
+		margin-bottom: 30px;
+	}
+	#portfolio .title ul > li:last-child {
+		margin-bottom: 0px;
+	}
+
+	section .portfolio .image-frame {
+		margin: 25px 55px;
+	}
+	
+	.info {
+		background-color: #161f32;
+	}
+	.wrap.show-section {
+		height: auto;
+	}
+
+	section .portfolio .image-frame div.img-hover {
+		width: 80%;
+    	height: 99%;
+	}
+
+	section .portfolio .image-frame div.img-hover {
+		padding: 0px;
+	}
+
+	section .portfolio .image-frame div.img-hover h4 {
+		font-size: 50px;
+    	position: absolute;
+    	left: 0;
+    	top: 50%;
+    	transform: translateY(-50%);
+    	width: 100%;
+	}
+	section .portfolio .image-frame div.img-hover h5 {
+		font-size: 30px;
+    	position: absolute;
+    	left: 0;
+    	top: 50%;
+    	transform: translateY(50%);
+    	width: 100%;
+	}
+	#portfolio .wrap.show-section {
+		padding: 35px;
+	}
+}
+
+/*Customize 2*/
+@media only screen and (max-width: 610px) {
+
+}
+
+/*Extra small -xs*/
+@media only screen and (max-width: 500px) {
+	#portfolio .title {
+		padding: 0px 20px;
+	}
+
+	#portfolio .wrap.show-section .container-fluid div.image-holder img {
+		width: 90%;
+	}
+	section .portfolio .image-frame div.img-hover h4 {
+		font-size: 30px;
+	}
+	section .portfolio .image-frame div.img-hover h5 {
+		font-size: 20px;
+	}
+
+	#portfolio .title ul > li {
+		margin-bottom: 30px;
+	    width: 215px;
+	    text-align: center;
+	    height: 40px;
+	    background: #3d506f;
+	    padding: 5px;
+	    margin-right: 0px;
+	    cursor: pointer;
+	}
+	#portfolio .title ul > li a {
+		padding: 0px;
+		background: none;
+	}
+	#portfolio .title ul > li:hover {
+		background-color: #00c7fb;
+	}
+
+	#portfolio .wrap .container-fluid .our-work {
+		padding: 0px 20px;
+	}
+	section .portfolio .image-frame div.img-hover {
+		height: 97% !important;
+	}
+	section .portfolio .image-frame div.img-hover {
+		top: 48% !important;
+	}
+}
+
+/*Customize */
+@media only screen and (max-width: 400px) {
+	section .portfolio .image-frame div.img-hover h4 {
+		font-size: 25px;
+	}
+	section .portfolio .image-frame div.img-hover h5 {
+		font-size: 15px;
+	}
+	#portfolio .wrap.show-section {
+		display: none;
+	}
+}

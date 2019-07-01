@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ultraregular';
+    src: url('../fonts/Ultra/ultra-regular-webfont.eot');
+    src: url('../fonts/Ultra/ultra-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ultra/ultra-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Ultra/ultra-regular-webfont.woff') format('woff'),
+         url('../fonts/Ultra/ultra-regular-webfont.ttf') format('truetype'),
+         url('../fonts/Ultra/ultra-regular-webfont.svg#ultraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

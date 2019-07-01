@@ -1,0 +1,151 @@
+header {
+	height: 90px;
+	width: 100%;
+	padding: 25px 115px;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+header .logo-holder {
+	text-align:left;
+}
+
+header .logo-holder a {
+	text-decoration: none;
+	outline: none;
+}
+
+header .logo-holder h1{
+	height: 22px;
+	font-size: 1.4em;
+	color: #3884c5;
+	font-family: 'pt_sansregular';
+	text-transform: uppercase;
+	margin: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header .logo-holder h1 span {
+	font-family: 'pt_sansbold';
+	color: #2e77ba;
+	letter-spacing: 1px;
+}
+
+header .logo-holder img{
+	width: 40px;
+	height: 40px;
+	margin-right: 3px;
+}
+
+header .nav-holder nav ul {
+	text-align: center;
+	margin-top: 10px;
+}
+
+header .nav-holder nav ul li {
+	height: 20px;
+	padding: 0 9px;
+	display: inline-block;
+	border-right: 1px solid black;
+}
+
+header .nav-holder nav ul li:last-child {
+	border-right: none;
+}
+
+header .nav-holder nav ul li a {
+	font-size: 0.9em;
+	color: #797979;
+	font-family: 'pt_sansregular';
+	text-transform: uppercase;
+	text-decoration: none;
+	outline: none;
+}
+
+header .nav-holder nav ul li a:after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 0;
+	background-color: #06457c;
+	margin: 7px auto;
+	transition: 0.3s;
+}
+
+header .nav-holder nav ul li a:hover{
+	color: #06457c;
+}
+
+header .nav-holder nav ul li a:hover:after{
+	width: 100%;
+}
+
+header .phone {
+	text-align: right;
+}
+
+header .phone p {
+	height: 22px;
+	color: #064e81;
+	font-family: 'pt_sansbold';
+	font-size:1.4em;
+	margin-top: 10px;
+}
+
+header .phone p a {
+	text-decoration: none;
+	outline: none;
+	color: inherit;
+	transition: 0.3s;
+}
+
+header .phone p a:hover {
+	color: rgba(58, 102, 142,0.6);
+}
+
+header .phone-icon {
+	height: 42px;
+	width: 90%;
+	position: relative;
+}
+
+header .phone-icon img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 20px;
+	margin: auto;
+}
+
+
+/*Responsive*/
+@media only screen and (min-width:2100px) {
+	header {
+		padding: 25px 450px;
+	}
+}
+@media only screen and (max-width:992px) {
+	header {
+		padding: 25px 50px;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	header {
+		height: 80px;
+		padding: 20px 0px;
+	}
+
+	header .phone,
+	header .logo-holder {
+		text-align:center;
+	}
+}
+
+

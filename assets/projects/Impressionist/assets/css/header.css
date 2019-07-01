@@ -1,0 +1,357 @@
+/*Header*/
+
+header .container-fluid {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: rgba(35,36,36,0.9);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+header .nav-holder nav p {
+	display: none;
+}
+
+header .logo-shell {
+	height: 120px;
+	display: table;
+}
+
+/*Logo*/
+
+header .logo-shell a {
+	text-decoration: none;
+	outline: none;
+}
+
+header .logo-shell a:hover {
+	-webkit-mask-image: linear-gradient(-75deg, rgba(224,230,93,.6) 30%, #e0e65d 50%, rgba(224,230,93,.6) 70%);
+	-webkit-mask-size: 200%;
+	animation: shine 2s infinite;
+}
+
+#logo {
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#logo h2 {
+	font-size: 26px;
+	font-family: 'cinzelbold';
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #999999;
+}
+
+
+/* Logo Effects*/
+
+@-webkit-keyframes shine {
+	from {
+	-webkit-mask-position: 150%;
+	}
+	to {
+	-webkit-mask-position: -50%;
+	}
+}
+
+header .logo-holder {
+	height: 120px;
+	display: table;
+}
+
+header .logo-holder #mobile-logo {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*header #mobile-logo {
+	background: url(../img/mobile_menu/one.png) no-repeat center center;
+}*/
+.visible_two {
+	background: url(../img/mobile_menu/home.png) no-repeat center center !important;
+}
+
+.visible_three {
+	background: url(../img/mobile_menu/style.png) no-repeat center center !important;
+}
+
+.visible_four {
+	background: url(../img/mobile_menu/full.png) no-repeat center center !important;
+}
+
+.visible_five {
+	background: url(../img/mobile_menu/drop.png) no-repeat center center !important;
+}
+
+.visible_six {
+	background: url(../img/mobile_menu/portfolio.png) no-repeat center center !important;
+}
+
+.visible_seven {
+	background: url(../img/mobile_menu/gallery.png) no-repeat center center !important;
+}
+.visible_eight {
+	background: url(../img/dropdown/iphone.png) no-repeat center center !important;
+}
+.visible_nine {
+	background: url(../img/dropdown/ipad.png) no-repeat center center !important;
+}
+.visible_ten {
+	background: url(../img/dropdown/ipod.png) no-repeat center center !important;
+}
+.visible_eleven {
+	background: url(../img/dropdown/macbook.png) no-repeat center center !important;
+}
+.visible_twelve {
+	background: url(../img/dropdown/laptop.png) no-repeat center center !important;
+}
+
+/*Menu*/
+
+header .menu-shell {
+	height: 120px;
+}
+
+header .nav-holder {
+	height: 120px;
+}
+
+header .nav-holder nav {
+	height: 100%;
+}
+
+header .nav-holder nav > ul {
+	text-align: right;
+	height: 100%;
+}
+
+header .nav-holder nav > ul > li {
+	display: inline-block;
+	padding: 50px 10px;
+	height: 100%;
+	position: relative;
+}
+
+header .nav-holder nav ul li.active {
+	display: inline-block;
+	height: 100%;
+	background-color: #e2494b;
+}
+
+nav > ul > li > ul {
+	display: none;
+	position: absolute;
+	top: 70%;
+	left: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+nav > ul > li > ul > li {
+	border: 1px solid #000;
+	z-index: 10;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	background-color: #353535;
+	border-radius: 3px;
+	box-shadow: 15px 21px 18px 8px rgba(0,0,0,0.75);
+}
+
+nav > ul > li > ul > li a {
+	text-decoration: none !important;
+	outline: none;
+	color: #979797;
+	font-family: 'cinzelregular';
+	font-size: 15px;
+}
+
+nav > ul > li > ul > li a:hover {
+	color: #fff;
+}
+
+nav > ul > li > ul > li:hover {
+	background-color: #e2494b;
+} 
+
+header .nav-holder nav ul li:hover ul {
+	display: block;
+}
+
+header .nav-holder nav > ul > li > a {
+	display: block;
+	text-decoration: none;
+	outline: none;
+	font-size: 15px;
+	font-family: 'cinzelregular';
+	text-transform: uppercase;
+	color: #979797;
+	vertical-align: middle;
+	height: 100%;
+	transition: 0.3s;
+}
+
+header .nav-holder nav > ul > li > a:hover {
+	color: #fff;
+}
+
+.nav-holder .mobile-canvas {
+	float: right;
+	height: 100%;
+	font-size: 35px;
+	color: #fff;
+	display: none;
+
+}
+
+.nav-holder .mobile-canvas i {
+	display: table-cell;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+
+/*Responsive*/
+
+/*Large -lg*/
+@media only screen and (max-width: 1200px) {
+	
+}
+
+/*Ipad*/
+@media only screen and (max-width: 1024px) {
+	.container-fluid {
+		padding-left: 10px;
+    	padding-right: 11px;
+	}
+	header .container-fluid {
+		max-width: 985px;
+		height: 100%;
+	}
+}
+
+/*Medium -md*/
+@media only screen and (max-width: 992px) {
+	header .nav-holder nav ul li {
+		padding: 50px 5px;
+	}
+	header .nav-holder nav ul li:last-child {
+		padding-right: 20px;
+	}
+	#logo {
+		padding-left: 20px;
+	}
+}	
+
+/*Customize*/ 
+@media only screen and (max-width: 940px) {
+	header .logo-holder {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	header .nav-holder nav {
+		display: none;
+	}
+
+	header .nav-holder nav > ul > li {
+		position: static;
+	}
+
+	header .nav-holder nav ul li:hover ul {
+    display: none;
+	}
+
+	header .nav-holder nav p{
+	display: block;
+	font-size: 34px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 36px;
+    right: 24px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1000;
+	}
+
+	.nav-holder .mobile-canvas {
+		display: table !important;
+		margin-right: 20px; 
+	}
+
+	header .nav-holder nav.open{
+	position: fixed;
+    background-color: red;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: rgba(0,0,0,0.9);
+    z-index: 10;
+	}
+
+	header .nav-holder nav ul {
+		text-align: center;
+		height: auto;
+	}
+	header .nav-holder nav > ul > li:first-child{
+		margin-top: 30px;
+		background: none;
+		display: block;
+		background: #000;
+	}
+	header .nav-holder nav ul li{
+		display: block;
+		padding: 10px;
+		width: 100%;
+		padding: 25px 5px;
+	}
+
+	header .nav-holder nav ul li a {
+		font-size: 22px;
+		font-family: 'cinzelbold';
+		text-transform: none;
+	}
+	header .nav-holder nav ul li a:hover{
+	-webkit-mask-image: linear-gradient(-75deg, rgba(224,230,93,.6) 30%, #e0e65d 50%, rgba(224,230,93,.6) 70%);
+	-webkit-mask-size: 200%;
+	animation: shine 2s infinite;
+	}
+}
+	
+
+
+/*Small -sm*/
+@media only screen and (max-width: 768px) {
+	.nav-holder .mobile-canvas {
+		display: table !important;
+		margin-right: 20px; 
+	}
+	.container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+}
+
+/*Extra small -xs*/
+@media only screen and (max-width: 500px) {
+	.nav-holder .mobile-canvas {
+		display: table !important;
+		margin-right: 0px; 
+	}
+	#logo {
+		padding-left: 0px;
+	}
+}

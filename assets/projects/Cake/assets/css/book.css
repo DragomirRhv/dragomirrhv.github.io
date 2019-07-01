@@ -1,0 +1,65 @@
+section#book-now {
+	min-height: 230px;
+	width: 100%;
+	background-image: url('../img/bg/bg1.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-color: rgba(0,0,0,0.63);
+}
+
+section#book-now #bg-hover {
+	width: 100%;
+	min-height: 230px;
+	background-color: rgba(0,0,0,0.85);
+	padding: 55px 20px;
+}
+
+
+section#book-now .some-title h2 {
+	color: #fff;
+	font-family: 'ralewaysemibold';
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+section#book-now .book-btns {
+	text-align: center;
+}
+
+section#book-now .book-btns a {
+	display: inline-block;
+	width: 250px;
+	height: 40px;
+	border:1px solid #fff;
+	border-radius: 3px;
+	margin: 10px;
+	padding: 9px 5px;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+	outline: none;
+	font-family: 'ralewaybold';
+	letter-spacing: 1px;
+	transition: 0.3s;
+	position: relative;
+	z-index: 10;
+}
+
+section#book-now .book-btns a.orange-btn {
+	border:1px solid #ff6600;
+	background-color: #ff6600;
+}
+
+section#book-now .book-btns a:hover {
+	background-color: rgba(255,255,255,0.3);
+}
+
+section#book-now .book-btns a.orange-btn:hover {
+	background-color: #f98845;
+	color:#000;
+	border:1px solid rgba(255,255,255);
+}
+
+

@@ -1,0 +1,314 @@
+#contacts {
+	width: 100%;
+	background: url('../img/contacts/backgr.jpg') no-repeat top center;
+	background-size: cover;
+}
+
+#contacts .wrap {
+	background-color: rgba(22,31,50,0.8);
+	height: 100%;
+	width: 100%;
+}
+
+
+#contacts .wrap .container-fluid .text {
+	padding: 67px 170px 0 170px;
+}
+
+#contacts .wrap .container-fluid .text h2 { 
+	font-size: 30px;
+	font-family: 'latoregular';
+	color: #fff;
+	margin-bottom: 23px;
+ }
+
+#contacts .wrap .container-fluid .text h3 {
+ 	color: #fff;
+ 	font-size: 20px;
+ 	font-family: 'latoregular';
+ 	margin-bottom: 23px;
+ }
+
+#contacts .wrap .container-fluid .text > div {
+	margin-bottom: 23px;
+}
+
+#contacts .wrap .container-fluid .text p {
+	font-size: 15px;
+	color: #fff;
+	font-family: 'latoregular';
+	margin-bottom: 56px;
+}
+
+#contacts .wrap .container-fluid div#our-contacts {
+	text-align: center;
+}
+
+#contacts .wrap .container-fluid div#our-contacts a:visited,
+#contacts .wrap .container-fluid div#our-contacts a:focus,
+#contacts .wrap .container-fluid div#our-contacts a:hover,
+#contacts .wrap .container-fluid div#our-contacts a {
+	display: inline-block;
+	width: 32.999%;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	height: 200px;
+	margin-bottom: 60px;
+}
+
+#contacts .wrap .container-fluid div#our-contacts a img {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+#contacts .wrap .container-fluid div#our-contacts a span {
+	display: block;
+	margin-bottom: 10px;
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+	font-size: 20px;
+	font-family: 'latoregular';
+}
+
+#contacts .wrap .container-fluid div#our-contacts a span:last-child {
+	margin-bottom: 55px;
+}
+
+#contacts .wrap .container-fluid .form {
+	text-align: left;
+}
+
+#contacts .wrap .container-fluid .form form {
+	text-align: center;
+}
+
+#contacts .wrap .container-fluid .form label{
+	position: relative;
+}
+
+#contacts .wrap .container-fluid .form label input {
+	background: none;
+	outline: none;
+	text-decoration: none;
+	border: none;
+	border: 1px solid #fff;
+	position: relative;
+	margin-right: 19px;
+	color:	#fff;
+	font-size: 15px;
+	font-family: 'latoitalic';
+	height: 65px;
+	width: 32%;
+	padding-left: 25px;
+	margin-bottom: 60px;
+}
+
+#contacts .wrap .container-fluid .form label p {
+	position: absolute;
+	top: 50px;
+	right: 195px;
+	display: none;
+	color:	#fff;
+	font-size: 15px;
+	font-family: 'latoitalic';
+	width: 200px;
+}
+
+#contacts .wrap .container-fluid .form label p.vis {
+	display: inline-block;
+}
+
+#contacts .wrap .container-fluid .form label p#val-p {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	display: none;
+	color:	#fff;
+	font-size: 15px;
+	font-family: 'latoitalic';
+	width: 200px;
+}
+
+#contacts .wrap .container-fluid .form label p#val-p.vis {
+	display: inline;
+}
+
+#contacts .wrap .container-fluid .form label p#mes-p {
+	position: absolute;
+	top: -5px;
+	left: 33px;
+	display: none;
+	color:	#fff;
+	font-size: 15px;
+	font-family: 'latoitalic'
+}
+
+#contacts .wrap .container-fluid .form label p#mes-p.vis {
+	display: inline;
+}
+
+#contacts .wrap .container-fluid .form label input#subject {
+	margin-right: 0px;
+}
+
+#contacts .wrap .container-fluid .form label input + span {
+	font-size: 15px;
+	font-family: 'latoitalic';
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: auto;
+	width: 150px;
+	cursor: pointer;
+}
+
+#contacts .wrap .container-fluid .form .w-field.not-empty input + span,
+#contacts .wrap .container-fluid .form label input:focus + span{
+	top: -50px;
+}
+
+#contacts .wrap .container-fluid .form label input#text-message {
+	width: 100%;
+	height: 212px;
+	padding: 20px 20px;
+}
+
+
+#contacts .wrap .container-fluid .form label textarea {
+	background: none;
+	border: none;
+	width: 100%;
+	height: 210px;
+	border: 1px solid #fff;
+	resize: none;
+	outline: none;
+	color: #fff;
+	font-size: 15px;
+	font-family: 'latoitalic';
+	padding: 20px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#contacts .wrap .container-fluid .form label textarea + span {
+	position: absolute;
+	top: -200px;
+	left: 0px;
+	color: #fff;
+	font-size: 15px;
+	font-family: 'latoitalic';
+	width: 150px;
+}
+
+#contacts .wrap .container-fluid .form .w-field.not-empty textarea + span,
+#contacts .wrap .container-fluid .form label textarea:focus + span {
+	top: -245px;
+}
+
+#contacts .wrap .container-fluid .form form input#submit {
+	background: none;
+	outline: none;
+	border: none;
+	color: #3d506f;
+	font-size: 20px;
+	padding: 20px 58px 20px 58px;
+	background-color: #fff;
+	font-family: 'latoregular';
+	margin-bottom: 40px;
+}
+
+#contacts .wrap .container-fluid .form form input#submit:hover{
+	background-color: #00c7fb;
+
+}
+
+/* Responsive */
+
+
+/*Large -lg*/
+@media only screen and (max-width: 1200px) {
+	#contacts .wrap .container-fluid .text {
+		padding: 67px 50px 0 50px;
+	}
+	#contacts .wrap .container-fluid .form {
+		padding: 0px 20px;
+	}
+	#contacts .wrap .container-fluid .form label input {
+		margin-right: 18px;
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	#contacts .wrap .container-fluid .form label input {
+		margin-right: 17px;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	#contacts .wrap .container-fluid .form label input {
+		margin-right: 16px;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	#contacts .wrap .container-fluid .form label input {
+		margin-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	#contacts .wrap .container-fluid .form label input {
+		margin-right: 14px;
+	}
+}
+
+/*Medium -md*/
+@media only screen and (max-width: 992px) {
+	#contacts .wrap .container-fluid .form form {
+		text-align: center;
+	}
+	#contacts .wrap .container-fluid .form label input {
+		width: 100%;
+	}
+	#contacts .wrap .container-fluid .form label p {
+		left: 33px !important;
+		width: 140px;
+	}
+	#contacts .wrap .container-fluid .form label p#val-p {
+		width: 130px;
+	}
+	#contacts .wrap .container-fluid .form label p#mes-p {
+		width: 157px;
+	}
+	
+}	
+
+/*Small -sm*/
+@media only screen and (max-width: 768px) {
+	#contacts .wrap .container-fluid div#our-contacts a {
+		width: 50% !important;
+	}
+	
+}
+
+/*Customize */
+@media only screen and (max-width: 610px) {
+
+}
+
+/*Extra small -xs*/
+@media only screen and (max-width: 500px) {
+	#contacts .wrap .container-fluid .text {
+		padding: 67px 20px 0 20px;
+	}
+}
+
+/*Customize */
+@media only screen and (max-width: 400px) {
+	
+}

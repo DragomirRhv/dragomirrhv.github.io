@@ -1,0 +1,243 @@
+/*Scroll Button*/
+.scroll {
+	display: inline-block;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+    border: 2px solid #7f7f7f;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: rgba(127,127,127,0.7);
+    cursor: pointer;
+   	visibility: hidden;
+}
+
+.scroll.show {
+	visibility: visible;
+}
+
+.scroll a {
+  padding-top: 45px;
+}
+
+.scroll a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 22px;
+  height: 22px;
+  margin:16px;
+  margin-left: -12px;
+  border-right: 3px solid #fff;
+  border-top: 3px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: arrows 2s infinite;
+  animation: arrows 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+
+.scroll a span:nth-of-type(1) {
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+.scroll a span:nth-of-type(2) {
+	top:8px;
+	-webkit-animation-delay: .15s;
+	animation-delay: .15s;
+}
+.scroll a span:nth-of-type(3) {
+	top:16px;
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+}
+@-webkit-keyframes arrows {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes arrows {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Close button*/
+#main-navigation > button {
+	background: none;
+	padding: 0;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	width: 14px;
+	height: 20px;
+	position: relative;
+
+	right: 0px;
+	top: 0px;
+}
+
+#main-navigation > button:after,
+#main-navigation > button:before {
+	content: ''; 
+	display: block;
+	width: 14px;
+	height: 4px;
+	background: #fff;
+	position: absolute;
+	bottom: 16px;
+	
+}
+
+#main-navigation > button:before {
+	left: 0;
+	transform: rotate(45deg);
+	transition: 0.5s;
+}
+
+#main-navigation > button:after {
+	right: 0;
+	transform: rotate(135deg);
+	transition: 0.3s;
+}
+
+#main-navigation > button:hover:before {
+	transform: rotate(180deg)
+}
+
+#main-navigation > button:hover:after {
+	transform: rotate(180deg)
+}
+
+
+.info button  {
+	background: none;
+	padding: 0;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	width: 14px;
+	height: 20px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+
+.info  button:after,
+.info button:before {
+	content: ''; 
+	display: block;
+	width: 14px;
+	height: 4px;
+	background: #fff;
+	position: absolute;
+	bottom: 16px;	
+}
+
+.info button:before {
+	left: 0;
+	transform: rotate(45deg);
+	transition: 0.5s;
+}
+
+.info button:after {
+	right: 0;
+	transform: rotate(135deg);
+	transition: 0.3s;
+}
+
+.info button:hover:before {
+	transform: rotate(180deg)
+}
+
+.info button:hover:after {
+	transform: rotate(180deg)
+}
+
+#about-us .wrap.expand-team-four .container-fluid button,
+#about-us .wrap.expand-team-three .container-fluid button,
+#about-us .wrap.expand-team-two .container-fluid button,
+#about-us .wrap.expand-team-one .container-fluid button {
+	background: none;
+	padding: 0;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	width: 14px;
+	height: 20px;
+	position: absolute;
+
+	right: 40px;
+	top: 30px;
+}
+
+
+#about-us .wrap.expand-team-four .container-fluid button:after,
+#about-us .wrap.expand-team-four .container-fluid button:before,
+#about-us .wrap.expand-team-three .container-fluid button:after,
+#about-us .wrap.expand-team-three .container-fluid button:before,
+#about-us .wrap.expand-team-two .container-fluid button:after,
+#about-us .wrap.expand-team-two .container-fluid button:before,
+#about-us .wrap.expand-team-one .container-fluid button:after,
+#about-us .wrap.expand-team-one .container-fluid button:before {
+	content: ''; 
+	display: block;
+	width: 14px;
+	height: 4px;
+	background: #fff;
+	position: absolute;
+	bottom: 16px;
+}
+
+#about-us .wrap.expand-team-four .container-fluid button:after,
+#about-us .wrap.expand-team-three .container-fluid button:after,
+#about-us .wrap.expand-team-two .container-fluid button:after,
+#about-us .wrap.expand-team-one .container-fluid button:after {
+	left: 0;
+	transform: rotate(45deg);
+	transition: 0.5s;
+}
+
+#about-us .wrap.expand-team-four .container-fluid button:before,
+#about-us .wrap.expand-team-three .container-fluid button:before,
+#about-us .wrap.expand-team-two .container-fluid button:before,
+#about-us .wrap.expand-team-one .container-fluid button:before {
+	right: 0;
+	transform: rotate(135deg);
+	transition: 0.3s;
+}
+
+#about-us .wrap.expand-team-four .container-fluid button:hover:after,
+#about-us .wrap.expand-team-three .container-fluid button:hover:after,
+#about-us .wrap.expand-team-two .container-fluid button:hover:after,
+#about-us .wrap.expand-team-one .container-fluid button:hover:after{
+	transform: rotate(180deg)
+}
+
+#about-us .wrap.expand-team-four .container-fluid button:hover:before,
+#about-us .wrap.expand-team-three .container-fluid button:hover:before,
+#about-us .wrap.expand-team-two .container-fluid button:hover:before,
+#about-us .wrap.expand-team-one .container-fluid button:hover:before{
+	transform: rotate(180deg)
+}
+
+
+@media only screen and (max-width: 992px) {
+
+}

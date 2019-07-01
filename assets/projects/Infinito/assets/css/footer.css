@@ -1,0 +1,138 @@
+#foot {
+ 	background-color: #132617;
+ 	padding: 15px 40px;
+ 	margin-top: 40px;
+}
+
+ #foot .foot-section {
+	padding: 15px;
+	border-right: 2px solid #4d5844;
+	height:	120px;
+	text-align: left;
+}
+
+#foot .foot-section.form {
+	text-align: center;
+	padding-top: 25px;
+}
+
+#foot .foot-section.fallow {
+	border-right: none;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#foot .foot-section a {
+	text-decoration: none;
+	outline: none;
+	color: #f8fff7;
+	transition: 0.3s;
+	text-transform: uppercase;
+}
+
+#foot .foot-section h5 {
+	color: #6e7a46;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+
+#foot .foot-section input[type=text] {
+	width: 50%;
+	padding: 5px 10px;
+}
+
+#foot .foot-section input[type=submit] {
+	background-color: #fccc9c;
+	border: 2px solid #fccc9c ;
+	padding: 5px 10px 5px 10px;
+	color: #685124;
+	transition: 0.3s;
+}
+
+#foot .foot-section input[type=submit].hover,
+#foot .foot-section input[type=submit]:hover {
+	background-color: #ead5ac;
+	border: 2px solid #ead5ac;
+	color:#132617;
+}
+
+
+
+#foot .foot-section.fallow p {
+	display: inline-block;
+	margin: 10px;
+}
+
+#foot .foot-section.fallow a {
+	font-size: 1.5em;
+}
+
+
+#foot .foot-section a.hover,
+#foot .foot-section a:hover {
+	color: grey;
+}
+
+footer {
+	height: 50px;
+}
+
+footer .foot-copyr {
+	width: 330px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+footer .foot-copyr p {
+	display: inline-block;
+	line-height: 1.4em;
+	font-size: 0.8em;
+	margin:7px 20px ;
+	color: #919191;
+	vertical-align: middle;
+	font-family: 'Poppins', sans-serif;
+}
+
+footer .foot-copyr img {
+	margin-right: 25px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+	#foot .foot-section {
+		border-right: none;
+		text-align: center;
+		border-bottom: 2px solid #4d5844;
+		padding: 0px;
+	}
+
+	#foot .foot-section.form {
+		padding-top: 25px;
+	}
+
+	#foot .foot-section.fallow {
+		border-bottom: none;
+		padding-top: 20px;
+		height: 70px;
+	}	
+}
+
+@media only screen and (max-width: 480px) {
+	#foot .foot-section input[type=text] {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	footer .foot-copyr {
+		width: 100%;
+	}
+	footer .foot-copyr p {
+
+		font-size: 0.7em;
+		margin:7px 7px ;
+	}
+}

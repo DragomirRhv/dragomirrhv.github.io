@@ -1,0 +1,233 @@
+#skills .wrap .container-fluid {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+#skills .wrap {
+	background-color: #fbfbfb;
+}
+
+#skills .wrap .container-fluid .skill {
+	padding: 50px 20px;
+}
+
+#skills .wrap .container-fluid .skill h2 {
+	font-size: 30px;
+	font-family: 'latoregular';
+	color: #3d506f;
+	margin-bottom: 25px;
+}
+
+#skills .wrap .container-fluid .skill p {
+	font-size: 15px;
+	font-family: 'latoregular';
+	color: #7f90a5;
+	padding: 0px 170px;
+	margin-bottom: 65px;
+}
+
+#skills .wrap .container-fluid .skill .text {
+	text-align: left;
+}
+
+#skills .wrap .container-fluid .skill .text p {
+	font-size: 15px;
+	font-family: 'latoregular';
+	color: #7f90a5;
+	padding: 0px;
+	margin-bottom: 50px;
+}
+
+#skills .wrap .container-fluid .skill h3 {
+	font-size: 25px;
+	font-family: 'latoregular';
+	color: #3d506f;
+	margin-bottom: 23px;
+}
+
+#skills .wrap .container-fluid .skill .text a:visited,
+#skills .wrap .container-fluid .skill .text a:focus,
+#skills .wrap .container-fluid .skill .text a:hover,
+#skills .wrap .container-fluid .skill .text a {
+	text-decoration: none;
+	outline: none;
+	padding: 20px 54px 20px 44px;
+	color: #fff;
+	background-color: #3d506f;
+	margin-top: 20px;
+}
+
+#skills .wrap .container-fluid .skill .text a:hover {
+	background-color: #00c7fb;
+}
+
+#skills .wrap .container-fluid .skill .skill-level {
+	text-align: left;
+	padding-left: 15px;
+}
+
+#skills .wrap .container-fluid .skill .skill-level .container-skills {
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: 10px;
+	height: 51px;
+	color: #fff;
+	font-size: 15px;
+	font-family: 'latoregular';
+}
+
+#skills .wrap .container-fluid .skill .skill-level .container-skills .htm {
+	width: 86%;
+	height: 100%;
+	background-color: #3d4f6f;
+	padding: 15px 0 0px 15px;
+}
+
+#skills .wrap .container-fluid .skill .skill-level .container-skills .js {
+	width: 80%;
+	height: 100%;
+	background-color: #3d4f6f;
+	padding: 15px 0 0px 15px;
+}
+
+#skills .wrap .container-fluid .skill .skill-level .container-skills .graphic {
+	width: 90%;
+	height: 100%;
+	background-color: #3d4f6f;
+	padding: 15px 0 0px 15px;
+}
+
+#skills .wrap .container-fluid .skill .skill-level .container-skills .photo {
+	width: 84%;
+	height: 100%;
+	background-color: #3d4f6f;
+	padding: 15px 0 0px 15px;
+}
+
+#skills .background {
+	height: 200px;
+	background: url(../img/skills/background.jpg) no-repeat center center;
+	margin-bottom: 57px;
+	background-size: cover;
+}
+
+#skills .wrap.numbers {
+	width: 100%;
+	height: 200px;
+	background-color: rgba(34,44,64,0.8);
+}
+
+#skills .wrap.numbers .row .info-numbers ul {
+	text-align: center;
+	padding: 60px;
+	
+}
+
+#skills .wrap.numbers .row .info-numbers ul li {
+	display: inline-block;
+	width: 23%;
+	color: #fff;
+}
+
+
+
+#skills .wrap.numbers .row .info-numbers ul li div{
+	display: inline-block;
+	vertical-align: text-top;
+}
+#skills .wrap.numbers .row .info-numbers ul li img{
+	width: 70px;
+}
+
+#skills .wrap.numbers .row .info-numbers ul li h5 {
+	font-size: 25px;
+	text-align: left;
+}
+
+#skills .wrap.numbers .row .info-numbers ul li h6 {
+	text-align: left;
+}
+
+
+/* Responsive */
+
+
+/*Large -lg*/
+@media only screen and (max-width: 1200px) {
+	
+}
+
+/*Medium -md*/
+@media only screen and (max-width: 992px) {
+	#skills .wrap .container-fluid .skill p {
+		padding: 0px 50px;
+	}
+	#skills .wrap.numbers .row .info-numbers ul {
+		padding: 60px 10px;
+	}
+}	
+
+/*Small -sm*/
+@media only screen and (max-width: 768px) {
+	#skills .wrap .container-fluid .skill .text {
+		margin-bottom: 60px;
+		text-align: center;
+	}
+	#skills .wrap .container-fluid .skill .skill-level {
+		padding: 0px;
+		text-align: center;
+	}
+	#skills .wrap .container-fluid .skill p {
+		padding: 0px;
+	}
+	#skills .wrap.numbers .row .info-numbers ul {
+		padding: 60px 0px;
+	}
+}
+
+/*Customize */
+@media only screen and (max-width: 660px) {
+	#skills .wrap.numbers .row .info-numbers ul li {
+		display: inline-block;
+    	width: 40%;
+    	color: #fff;
+    	margin: 10px;
+	}
+	#skills .wrap.numbers {
+		height: auto;
+	}
+	#skills .background {
+		height: auto;
+	}
+}
+
+/*Extra small -xs*/
+@media only screen and (max-width: 500px) {
+	
+}
+
+/*Customize */
+@media only screen and (max-width: 400px) {
+	#skills .wrap.numbers .row .info-numbers ul li {
+		display: inline-block;
+		width: 50%;
+    	color: #fff;
+    	margin-bottom: 20px;
+	}
+	#skills .wrap.numbers .row .info-numbers ul li:nth-child(2) {
+		display: inline-block;
+		width: 50%;
+    	color: #fff;
+    	margin-bottom: 20px;
+    	padding-right: 23px;
+	}
+}
+
+@media only screen and (max-width: 310px) {
+	#skills .wrap.numbers .row .info-numbers ul li {
+		display: block;
+	}
+	#skills .wrap.numbers .row .info-numbers ul {
+		padding: 10px 90px;
+	}
+}

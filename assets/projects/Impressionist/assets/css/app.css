@@ -1,0 +1,22 @@
+/*Fonts*/
+@import url('fonts.css');
+@import url('font-awesome.css');
+
+/*Owl Carousel*/
+@import url(owl.carousel.css);
+
+/*Grid*/
+@import url('reset.css');
+@import url('bootstrap.css');
+
+/*Buttons*/
+@import url('buttons.css');
+
+/*Popup window*/
+@import url('popup.css');
+
+/*Sections*/
+@import url('header.css');
+@import url('section_carousel.css');
+@import url('thumbnail_one.css');
+@import url('footer.css');

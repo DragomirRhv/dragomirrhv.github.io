@@ -1,0 +1,96 @@
+section#services {
+	padding: 52px 115px;
+	font-family: 'ralewayregular';
+}
+
+section#services .services-title h2 {
+	color: #015b98;
+	font-family: 'ralewaybold';
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+section#services .services-title p {
+	font-size: 0.95em;
+	color: #404040;
+}
+
+section#services .service-list ol{
+	list-style-type: decimal;
+	 list-style-position: inside;
+	color: #707070;
+	font-size:0.9em;
+}
+
+section#services .service-list ol li {
+	padding: 50px 35px 0 0;
+}
+
+section .img-holder {
+	padding-top: 85px;
+	text-align: center;
+}
+
+section .img-holder img {
+	width: 100%;
+}
+
+/*Responsive */
+/* XL devices*/
+@media only screen and (min-width:1700px) {
+	section#services {
+		padding: 50px 300px;
+	}
+}
+
+@media only screen and (min-width:1920px) {
+	section .img-holder {
+		padding-top: 45px;
+	}
+}
+
+@media only screen and (min-width:2100px) {
+	section .img-holder {
+		padding-top: 65px
+	}
+}
+
+/*Middle devices*/
+
+@media only screen and (min-width:2100px) {
+	section#services {
+		padding: 50px 450px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	section#services {
+		text-align: center;
+	}
+
+	section#services .service-list ol {
+		text-align: left;
+	}
+
+	section#services .service-list ol li {
+		padding: 0px 20px 30px 20px;
+		font-weight: bolder;
+	}
+
+	section#services .service-list ol li span { 
+   		font-weight: normal;
+	}
+
+	section .img-holder {
+		padding: 0 20px;
+		margin: 30px 0 40px;
+	}
+}
+
+/*Small*/
+@media only screen and (max-width:768px) {
+	section#services  {
+		padding: 25px 30px;
+	}
+}

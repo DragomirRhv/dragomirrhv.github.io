@@ -1,0 +1,19 @@
+footer {
+	width: 100%;
+	height: 120px;
+	background-color: #161f32;
+	text-align: center;
+	padding-top: 20px;
+}
+
+footer .wrap .container-fluid h2 {
+	color: #fff;
+	font-size: 37px;
+	font-family: 'molleregular';
+}
+
+footer .wrap .container-fluid h3 {
+	font-size: 11px;
+	color: #fff;
+	font-family: 'lato_lightregular';
+}

@@ -1,0 +1,188 @@
+.separator {
+	text-align: center;
+	margin-bottom: 18px;
+	background: url('../img/separator/separator.png') no-repeat center center;
+	height: 20px;
+	width: 100%;
+	display: inline-block;
+}
+
+.separator_two {
+	text-align: center;
+	margin-bottom: 18px;
+	background: url('../img/separator/separator_two.png') no-repeat center center;
+	height: 20px;
+	width: 100%;
+	display: inline-block;
+}
+
+
+/*Portfolio triangles*/
+
+section .portfolio .image-frame .image-box.first:after,
+section .portfolio .image-frame .image-box.second:after,
+section .portfolio .image-frame .image-box.fourth:after,
+section .portfolio .image-frame .image-box.third:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #161f32;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0px;
+	margin: auto auto -60px auto;
+	opacity: 0;
+}
+
+section .portfolio .image-frame .image-box.fourth:hover:after,
+section .portfolio .image-frame .image-box.third:hover:after,
+section .portfolio .image-frame .image-box.second:hover:after,
+section .portfolio .image-frame .image-box.first:hover:after {
+	opacity: 1;
+}
+
+
+section .portfolio .image-frame .image-box.fifth:after,
+section .portfolio .image-frame .image-box.sixth:after,
+section .portfolio .image-frame .image-box.seventh:after,
+section .portfolio .image-frame .image-box.eight:after {
+	content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #161f32;
+    right: 0;
+    left: 0;
+    top: 0px;
+    bottom: 0px;
+    margin: -65px auto auto auto;
+    opacity: 0;
+}
+
+section .portfolio .image-frame .image-box.fifth:hover:after,
+section .portfolio .image-frame .image-box.sixth:hover:after,
+section .portfolio .image-frame .image-box.seventh:hover:after,
+section .portfolio .image-frame .image-box.eight:hover:after {
+	opacity: 1;
+}
+
+
+#about-us .wrap.overlap .person-frame #person-one:after,
+#about-us .wrap.overlap .person-frame #person-two:after,
+#about-us .wrap.overlap .person-frame #person-three:after,
+#about-us .wrap.overlap .person-frame #person-four:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #161f32;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: -434px;
+	margin: auto auto auto auto;
+	opacity: 0;
+}
+
+#about-us .wrap.overlap .person-frame #person-one:hover:after,
+#about-us .wrap.overlap .person-frame #person-two:hover:after,
+#about-us .wrap.overlap .person-frame #person-three:hover:after,
+#about-us .wrap.overlap .person-frame #person-four:hover:after {
+	opacity: 1;
+}
+
+
+/*Section Blog Triangles*/
+
+
+#blog .wrap .container-fluid .row.part-two .grid-img-two .img-holder:after,
+#blog .wrap .container-fluid .row.part-two .grid-img-one .img-holder:after {
+	content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 15px solid #161f32;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  	top:56px;
+  	right: 0;
+    margin: auto auto auto auto;
+    opacity: 1;
+}
+
+#blog .wrap .container-fluid .row.part-two .vert-rect .grid-img-three .img-holder:after {
+	content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #161f32;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    bottom: 0;
+    left: 57px;
+    margin: auto auto auto auto;
+    opacity: 1;
+}
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 1200px) {
+	section .portfolio .image-frame .image-box.first:after,
+	section .portfolio .image-frame .image-box.second:after,
+	section .portfolio .image-frame .image-box.fourth:after,
+	section .portfolio .image-frame .image-box.third:after {
+		margin: auto auto -75px auto;
+	}
+
+	section .portfolio .image-frame .image-box.fifth:after,
+	section .portfolio .image-frame .image-box.sixth:after,
+	section .portfolio .image-frame .image-box.seventh:after,
+	section .portfolio .image-frame .image-box.eight:after {
+		margin: -80px auto auto auto;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	section .portfolio .image-frame .image-box.first:after,
+	section .portfolio .image-frame .image-box.second:after,
+	section .portfolio .image-frame .image-box.fourth:after,
+	section .portfolio .image-frame .image-box.third:after {
+	
+	bottom: -272px;
+	
+	}
+
+	section .portfolio .image-frame .image-box.fifth:after,
+	section .portfolio .image-frame .image-box.sixth:after,
+	section .portfolio .image-frame .image-box.seventh:after,
+	section .portfolio .image-frame .image-box.eight:after {
+		top: -280px;
+	}
+
+	#about-us .wrap.overlap .person-frame #person-one:after,
+	#about-us .wrap.overlap .person-frame #person-two:after,
+	#about-us .wrap.overlap .person-frame #person-three:after,
+	#about-us .wrap.overlap .person-frame #person-four:after {
+		display: none;
+	}
+
+	section .portfolio .image-frame .image-box.fifth:after,
+	section .portfolio .image-frame .image-box.sixth:after,
+	section .portfolio .image-frame .image-box.seventh:after,
+	section .portfolio .image-frame .image-box.eight:after,
+	section .portfolio .image-frame .image-box.first:after,
+	section .portfolio .image-frame .image-box.second:after,
+	section .portfolio .image-frame .image-box.fourth:after,
+	section .portfolio .image-frame .image-box.third:after {
+		display: none;
+	}
+}

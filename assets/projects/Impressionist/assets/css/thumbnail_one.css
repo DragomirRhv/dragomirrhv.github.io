@@ -1,0 +1,141 @@
+#thumbnail-one {
+	width: 100%;
+	background-color: #f2f2f2;
+	border-bottom: 15px solid #dadadc;
+}
+
+#thumbnail-one #intro {
+	max-width: 960px;
+	margin: 0 auto;
+	height: 425px;
+	text-align: center;
+}
+
+#thumbnail-one .title ul {
+	border-bottom: 1px solid #dadadc;
+}
+
+#thumbnail-one .title ul li {
+	display: inline-block;
+	width: 225px;
+	height: 100%;
+	margin-right: 16px;
+	padding: 58px 0 50px;
+	text-align: center;
+}
+
+#thumbnail-one #intro ul li:last-child {
+	margin-right: 0;
+}
+
+#thumbnail-one .content ul li {
+	text-align: left;
+}
+
+#thumbnail-one .content ul li h3,
+#thumbnail-one .title ul li h3 {
+	font-family: 'cinzelregular';
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#thumbnail-one .content ul li h3 span,
+#thumbnail-one .title ul li h3 span {
+	color: #e1484b;
+	letter-spacing: 1px;
+}
+
+#thumbnail-one .content ul li img,
+#thumbnail-one .title ul li img {
+	margin: 20px 0;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+#thumbnail-one .title ul li img:after {
+	background: #000;
+}
+
+#thumbnail-one .title ul li p {
+	font-family: 'cinzelregular';
+	font-size: 13px;
+	margin-bottom: 22px;
+}
+
+#thumbnail-one #content {
+	max-width: 960px;
+	margin: 0 auto;
+	height: 360px;
+}
+
+#content .content ul {
+	text-align: left;
+}
+
+#content .content ul li {
+	display: inline-block;
+	width: 225px;
+	height: 100%;
+	margin-right: 16px;
+	padding-top: 35px;
+	padding-bottom: 25px;
+}
+
+#content .content ul li:last-child {
+	vertical-align: top;
+	padding-top: 82px;
+	margin-right: 0;
+}
+
+#content .content ul li p {
+	font-family: 'cinzelregular';
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+/*Responsive*/
+
+/*Large -lg*/
+@media only screen and (max-width: 1200px) {
+
+}
+
+/*Medium -md*/
+@media only screen and (max-width: 992px) {
+	#content .content ul {
+		text-align: center;
+	}
+
+	#content .content ul li,
+	#thumbnail-one .title ul li {
+		width: 45%;
+	}
+
+	#thumbnail-one .content ul li {
+		text-align: center;
+	}
+
+	#content .content ul li p {
+		font-size: 18px;
+		text-align: left;
+	}
+}
+
+/*Small -sm*/
+@media only screen and (max-width: 768px) {
+	#content .content ul li,
+	#thumbnail-one .title ul li{
+		width: 100%;
+	}
+	#content .content ul li p {
+		font-size: 18px;
+		text-align: center;
+	}
+}
+
+/*Extra small -xs*/
+@media only screen and (max-width: 500px) {
+
+
+}

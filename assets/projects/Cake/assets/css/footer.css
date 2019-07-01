@@ -1,0 +1,10 @@
+footer {
+	width: 100%;
+	text-align: center;
+	padding: 25px;
+}
+
+footer .copyrights p {
+	font-size: 0.8em;
+	color: #676767;
+}

@@ -1,0 +1,140 @@
+#clients .wrap.backgr {
+	background: url('../img/customers/backgr.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	margin-bottom: 53px;
+}
+
+#clients .wrap.backgr .mask {
+	background: rgba(22,31,50,0.8);
+	width: 100%;
+	height: auto;
+	padding: 60px 40px;
+}
+
+#clients .wrap .container-fluid .customers {
+	padding: 0px 0px;
+}
+
+#clients .wrap .container-fluid .customers h2 {
+	font-size: 30px;
+	font-family: 'latoregular';
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+#clients .wrap .container-fluid .customers p {
+	font-size: 15px;
+	font-family: 'latoregular';
+	color: #fff;
+	margin-bottom: 65px;
+	padding: 0 170px;
+}
+
+#clients .wrap .container-fluid .customers div#brands {
+	text-align: center;
+}
+
+#clients .wrap .container-fluid .customers #brands a:visited,
+#clients .wrap .container-fluid .customers #brands a:focus,
+#clients .wrap .container-fluid .customers #brands a:hover,
+#clients .wrap .container-fluid .customers #brands a {
+	display: inline-block;
+	width: 16.667;
+	cursor: pointer;
+	text-decoration: none;
+	outline: none;
+	margin-right: 80px;
+	margin-bottom: 30px;
+}
+
+#clients .wrap .container-fluid .customers #brands a:last-child {
+	margin-right: 0px;
+}
+
+#clients .wrap .container-fluid .row .testimonials h2 {
+	font-size: 30px;
+	font-family: 'latoregular';
+	color: #3d506f;
+	margin-bottom: 36px;
+}
+
+#clients .wrap .container-fluid .row .testimonials q {
+	font-size: 15px;
+	font-family: 'latoitalic';
+	color: #7f90a5;
+	margin-bottom: 33px;
+}
+
+#clients .wrap .container-fluid .row .testimonials > div {
+	margin-bottom: 30px;
+	margin-top: 25px;
+}
+
+#clients .wrap .container-fluid .row .testimonials h4 {
+	font-size: 20px;
+	font-family: 'latoregular';
+	color: #3d506f;
+	margin-bottom: 67px;
+}
+
+
+/* Responsive */
+
+
+/*Large -lg*/
+@media only screen and (max-width: 1200px) {
+	#clients .testimonials {
+		padding: 0px 40px;
+	}
+}
+
+/*Medium -md*/
+@media only screen and (max-width: 992px) {
+	#clients .wrap .container-fluid .customers p {
+		padding: 0 50px;
+	}
+}
+
+@media only screen and (max-width: 910px) {
+	#clients .wrap .container-fluid .customers #brands a:nth-child(4), 
+	#clients .wrap .container-fluid .customers #brands a:nth-child(5), 
+	#clients .wrap .container-fluid .customers #brands a:nth-child(6) {
+		margin-right: 85px;
+	}
+}
+
+/*Small -sm*/
+@media only screen and (max-width: 768px) {
+	#clients .wrap .container-fluid .customers p {
+		padding: 0px;
+	}
+}
+
+/*Customize */
+@media only screen and (max-width: 610px) {
+
+}
+
+/*Customize*/
+@media only screen and (max-width: 510px) {
+	#clients .wrap .container-fluid .customers #brands a {
+		display: block;
+		margin-right: 0px;
+	}
+	#clients .wrap .container-fluid .customers #brands a:nth-child(4),
+	#clients .wrap .container-fluid .customers #brands a:nth-child(5),
+	#clients .wrap .container-fluid .customers #brands a:nth-child(6) {
+		margin-right: 0px;
+	}
+}
+/*Extra small -xs*/
+@media only screen and (max-width: 500px) {
+	
+}
+
+/*Customize */
+@media only screen and (max-width: 400px) {
+	
+}

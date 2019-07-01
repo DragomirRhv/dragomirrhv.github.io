@@ -1,0 +1,30 @@
+/*Fonts*/
+@import url('fonts.css');
+@import url('font-awesome.css');
+
+/*Owl Carousel*/
+@import url(owl.carousel.css);
+
+/*Grid*/
+@import url('reset.css');
+@import url('bootstrap.css');
+
+/*Ornaments*/
+@import url('ornaments.css');
+
+/*Buttons*/
+@import url('buttons.css');
+
+/*Sections*/
+@import url('header.css');
+@import url('section_landing.css');
+@import url('services.css');
+@import url('portfolio.css');
+@import url(expand_images.css);
+@import url('about_us.css');
+@import url('expand_team.css');
+@import url('skills.css');
+@import url('blog.css');
+@import url('customers.css');
+@import url('contacts.css');
+@import url('footer.css');

@@ -1,0 +1,110 @@
+#about-us {
+	background: url(../img/about_us/background.jpg) no-repeat center center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+
+#about-us .wrap.overlap {
+	width: 100%;
+	height: auto;
+	background-color: rgba(34,44,64,0.8);
+	padding-top: 58px;
+	margin-top: 80px;
+}
+
+#about-us .wrap.overlap h2 {
+	font-size: 30px;
+	font-family: 'latoregular';
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#about-us .wrap.overlap h3 {
+	font-size: 20px;
+	font-family: 'latoregular';
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#about-us .wrap.overlap .separator {
+	margin-bottom: 20px;
+}
+
+#about-us .wrap.overlap .text {
+	padding: 0 40px 0 40px;
+}
+
+#about-us .wrap.overlap p {
+	font-size: 15px;
+	font-family: 'latoregular';
+	color: #fff;
+	margin-bottom: 60px;
+	padding: 0 130px;
+}
+
+#about-us .wrap.overlap .person-box {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border:2px solid #fff;
+	margin-bottom: 20px;
+	cursor: pointer;
+	position: relative;
+}
+
+#about-us .wrap.overlap #person-one {
+	background: url(../img/about_us/one.jpg) no-repeat center center;
+}
+
+#about-us .wrap.overlap #person-two {
+	background: url(../img/about_us/two.jpg) no-repeat top center;
+}
+
+#about-us .wrap.overlap #person-three {
+	background: url(../img/about_us/three.jpg) no-repeat center center;
+}
+
+#about-us .wrap.overlap #person-four {
+	background: url(../img/about_us/four.jpg) no-repeat center center;
+}
+
+#about-us .wrap.overlap .person-frame {
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 58px;
+}
+
+#about-us .wrap.overlap .person-frame h4 {
+	color: #fff;
+	font-size: 20px;
+	font-family: 'latobold';
+}
+
+#about-us .wrap.overlap .person-frame h5 {
+	color: #fff;
+	font-size: 15px;
+	font-family: 'lato_lightregular';
+}
+
+#about-us .wrap.overlap .person-box div.team-hover {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(34,44,64,0.8);
+	padding: 75px 65px;
+	opacity: 0;
+	transition: .3s ease;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+#about-us .wrap.overlap .person-box div.team-hover:hover {
+	opacity: 0.9;
+}
+
+
+

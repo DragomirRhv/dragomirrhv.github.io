@@ -1,0 +1,132 @@
+#services {
+	width: 100%;
+	height: auto;
+}
+
+#services .wrap .container-fluid {
+	margin-bottom: 60px;
+}
+
+#services h2 {
+	font-size: 30px;
+	font-family: 'latoregular';
+	color: #3d506f;
+	margin-bottom: 24px;
+	word-spacing: 4px;
+}
+
+#services h3 {
+	font-size: 20px;
+	font-family: 'latoregular';
+	color: #7f90a5;
+	margin-bottom: 24px;
+}
+
+#services p#separator-p {
+	font-size: 15px;
+	font-family: 'latoregular';
+	color: #7f90a5;
+	padding: 0 190px;
+	margin-bottom: 67px;
+}
+
+
+#services ul li {
+	display: inline-block;
+	width: 23%;
+}
+
+#services ul li > div {
+	display: inline-block;
+	height: 106px;
+	width: 106px;
+	border-radius: 50%;
+	background-color: #3d506f;
+	margin-bottom: 25px;
+	padding: 28px;
+}
+
+#services ul li > h4 {
+	font-size: 22px;
+	font-family: 'latoregular';
+	color: #3d506f;
+	margin-bottom: 24px;
+}
+
+#services ul li > p {
+	font-size: 15px;
+	font-family: 'latoregular';
+	color: #7f90a5;
+}
+
+.quote {
+	width: 100%;
+	background: url(../img/services/backgr.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.quote .wrap {
+	background-color: rgba(28,38,57,0.8);
+	width: 100%;
+}
+
+.quote #quote {
+	padding: 50px 180px 30px ;
+}
+
+.quote #quote h2 {
+	color: #fff;
+	font-size: 25px;
+	font-family: 'lato_lightregular';
+}
+
+.quote #quote h3 {
+	font-family: 'latoregular';
+	font-size: 15px;
+	color: #fff;
+}
+
+
+/* Responsive */
+
+
+/*Large -lg*/
+@media only screen and (max-width: 1200px) {
+	
+}
+
+/*Medium -md*/
+@media only screen and (max-width: 992px) {
+	.quote #quote {
+		padding: 50px 80px 30px;
+	}
+}	
+
+/*Small -sm*/
+@media only screen and (max-width: 768px) {
+	.quote #quote {
+		padding: 50px 20px 30px;
+	}
+}
+
+/*Customize */
+@media only screen and (max-width: 610px) {
+
+}
+
+/*Extra small -xs*/
+@media only screen and (max-width: 500px) {
+	.quote #quote {
+		padding: 20px 0px 10px;
+	}
+	.quote #quote h2 {
+		font-size: 19px;
+	}
+}
+
+/*Customize */
+@media only screen and (max-width: 400px) {
+	.quote #quote h3 {
+		font-size: 13px;
+	}
+}

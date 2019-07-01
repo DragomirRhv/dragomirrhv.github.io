@@ -1,0 +1,119 @@
+section#order-online {
+	margin-top: 90px;
+	height: auto;
+	width: 100%;
+	padding: 50px 115px 65px;
+	background: -moz-radial-gradient(bottom, ellipse cover, #157aad 0%, #106697 24%, #063E6C 73%, #053764 83%); /* ff3.6+ */
+	background: -webkit-gradient(radial, bottom bottom, 0px, bottom bottom, 100%, color-stop(0%, #157aad), color-stop(24%, #106697), color-stop(73%, #063E6C), color-stop(83%, #053764)); /* safari4+,chrome */
+	background: -webkit-radial-gradient(bottom, ellipse cover, #157aad 0%, #106697 24%, #063E6C 73%, #053764 83%); /* safari5.1+,chrome10+ */
+	background: -o-radial-gradient(bottom, ellipse cover, #157aad 0%, #106697 24%, #063E6C 73%, #053764 83%); /* opera 11.10+ */
+	background: -ms-radial-gradient(bottom, ellipse cover, #157aad 0%, #106697 24%, #063E6C 73%, #053764 83%); /* ie10+ */
+	background: radial-gradient(ellipse at bottom, #157aad 0%, #106697 24%, #063E6C 73%, #053764 83%); /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#157aad', endColorstr='#053764',GradientType=1 ); /* ie6-9 */
+	text-align: center;
+	font-family: 'ralewaysemibold';
+}
+
+section#order-online .order-description h2 {
+	color: #fff;
+	font-family: 'ralewaysemibold';
+	font-size: 2em;
+}
+
+section#order-online .order-description p {
+	color: #fff;
+	font-size: 1em;
+	padding: 25px 160px 50px 160px;
+	font-family: 'ralewayregular';
+}
+
+section#order-online .order-details {
+	text-align: center;
+	width: 100%;
+}
+
+section#order-online .order-details table {
+	color: white;
+	display: inline-block;
+	font-size: 1.3em;
+	letter-spacing: 0.5px;
+}
+
+section#order-online .order-details table td {
+	padding: 6px 60px;
+	text-align: left;
+}
+
+section#order-online .order-btn {
+	margin-top: 60px;
+}
+
+section#order-online .order-btn a {
+	padding: 15px 40px; 
+	background-color: #ff6600;
+	text-transform: uppercase;
+	color: white;
+	border-radius: 3px;
+	text-decoration: none;
+	outline: none;
+	font-family: 'ralewaylight';
+	transition: 0.3s;
+	display: inline-block;
+	position: relative;
+	z-index: 10;
+}
+
+
+section#order-online .order-btn a:hover {
+	background-color: #f98845;
+}
+
+/*Responsive*/
+@media only screen and (min-width:2100px) {
+	section#order-online {
+		padding: 50px 450px 65px;
+	}
+}
+
+@media only screen and (max-width:992px) {
+	section#order-online .order-description p {	
+		padding: 25px 50px 50px 50px;
+	}
+}
+
+
+@media only screen and (max-width:768px) {
+	section#order-online {
+		margin-top: 80px;
+		padding: 50px 30px 65px;
+	}
+
+	section#order-online .order-details table td {
+		padding: 6px 20px;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	section#order-online .order-description h2 {
+		margin-bottom: 40px;
+	}
+	section#order-online .order-description p {	
+		display: none;
+	}
+
+	section#order-online .order-details table td {
+		display: block;
+		text-align: center;
+		text-decoration: underline;
+		padding: 15px 0px 0px;
+		font-size: 1.35em;
+
+	}
+	section#order-online .order-details table td.right-col {
+		display: block;
+		text-decoration:none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		padding: 0px 60px;
+	}
+}

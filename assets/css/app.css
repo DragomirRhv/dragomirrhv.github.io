@@ -1,0 +1,162 @@
+@import url('bootstrap.css');
+@import url('font-awesome.css');
+
+div#foot-id { 
+	width: 100%;
+	height: auto;
+	background-color: rgba(71, 78, 91,1);
+	box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2);
+		-moz-box-shadow:0 -3px 8px 0 rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow:0 -3px 8px 0 rgba(0, 0, 0, 0.2);
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+	position: relative;
+	}
+
+div#foot-id .project-section {
+	width: 100%;
+	height: 100%;
+}
+
+div#foot-id .project-section .icon {
+	font-size: 4em;
+	margin-top: 25px;
+}
+
+div#foot-id .project-section h3 {
+	font-size: 3.4em;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+}
+
+div#foot-id .project-section .pro-icons {
+	font-size: 28px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+
+div#foot-id .project-section .pro-icons i {
+	cursor: pointer;
+	position: relative;
+	width: 23%;
+	margin-bottom: 40px;
+}
+
+div#foot-id .project-section .pro-icons  p{
+	font-size: 16px;
+	opacity: 0;
+	text-transform: uppercase;
+	position: absolute;
+}
+
+div#foot-id .project-section .pro-icons  p#fl-resp {
+	left: 0px;
+	right: 0px;
+	margin: 20px auto;
+}
+
+div#foot-id .project-section .pro-icons  p#scnd-p {
+	left: 0px;
+	right: 0px;
+	margin: 20px auto;
+}
+
+div#foot-id .project-section .pro-icons  p#trd-p {
+	left: 0px;
+	right: 0px;
+	margin: 20px auto;
+}
+
+div#foot-id .project-section .pro-icons p#frth-p {
+	left: 0px;
+	right: 0px;
+	margin: 20px auto;
+}
+
+div#foot-id .project-section h3:after {
+	content: '';
+	display: block;
+	height: 1px;
+	width: 200px; 
+	margin-top: 2px;
+	background: lightgrey;
+	margin: 7px auto 25px auto ;
+}
+
+div#foot-id .project-section .projects {
+	display: inline-block;
+	width: 35%;
+	height:auto;
+	margin: 20px;
+	margin-bottom: 25px;
+}
+
+div#foot-id .project-section .projects.middle {
+	display: block;
+	margin: 0 auto;
+}
+
+div#foot-id p>a {
+	text-decoration: none;
+	outline: none;
+	color: inherit;
+}
+
+div#foot-id .project-section .projects img {
+	width: 90%;
+	height: auto;
+	border: 2px solid white;
+	border-radius: 3px;
+	padding:10px;
+	transition: 0.3s;
+	opacity: 0.5;
+}
+
+div#foot-id .project-section .projects img.hover,
+div#foot-id .project-section .projects:hover img {
+	transform: scale(1.025);
+		-moz-transform:scale(1.025) ;
+		-webkit-transform:scale(1.025) ;
+		-o-transform:scale(1.025);
+		-ms-transform:scale(1.025);
+	opacity: 1;
+}
+
+div#foot-id #copyr {
+	padding: 10px;
+	border-top: 1px solid lightgrey;
+	margin-top: 40px;
+	font-size: 1.2em;
+}
+
+
+
+
+@media only screen and (max-width:992px) {
+	div#foot-id .project-section .projects {
+		width: 40%;
+	}
+}
+
+/*Small*/
+@media only screen and (max-width:700px) {
+	div#foot-id .project-section .projects {
+		width: 90%;
+	}
+	div#foot-id .project-section .pro-icons i {
+		display: block;
+		width: 100%;
+		margin-bottom: 70px;
+	}
+}
+
+@media only screen and (max-width:350px) {
+	div#foot-id .project-section h3 {
+		font-size: 2.4em;
+	}
+}

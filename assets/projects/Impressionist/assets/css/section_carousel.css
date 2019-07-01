@@ -1,0 +1,140 @@
+.carousel {
+	margin-top: 120px;
+	background-color: #1e1e1e;
+	border-top: 1px solid #000;
+	border-bottom: 8px solid #fff;
+	padding-bottom: 25px;
+}
+
+.carousel .container-fluid {
+	max-width: 960px;
+}
+
+.carousel .item-first > div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.carousel .item-first .text {
+	width: 40%;
+	height: 100%;
+	padding: 137px 54px 57px 0;
+}
+
+.carousel .item-first .img-holder-one {
+	width: 59%;
+	padding: 40px 54px 57px 10px;
+}
+
+.carousel .item-first .img-holder-two {
+	width: 59%;
+	padding: 50px 54px 57px 10px;
+}
+
+.carousel .item-first .img-holder-three {
+	width: 59%;
+	padding: 60px 54px 57px 30px;
+}
+
+.carousel .text h2 {
+	font-size: 50px;
+	font-family: 'cinzelregular';
+	letter-spacing: 2px;
+	color: #666666;
+	font-weight: bolder;
+	line-height: 70px;
+	margin-bottom: 28px;
+}
+
+.carousel .text p {
+	color: #999999;
+	font-family: 'Cardo', serif;
+	font-size: 16px;
+	margin-bottom: 38px;
+}
+
+
+/*Carousel buttons*/
+.owl-nav {
+	display: none;
+}
+
+.owl-dots {
+	text-align: center;
+}
+
+div.owl-dots button {
+	background-color: #fff !important;
+	width: 15px;
+	height: 15px;
+	margin: 7.5px;
+	border-radius: 20px;
+	outline: none;
+}
+
+.owl-dot.active {
+	background-color: #e2494b !important;
+}
+
+/*Responsive*/
+
+/*Large -lg*/
+@media only screen and (max-width: 1200px) {
+	
+}
+
+/*Medium -md*/
+@media only screen and (max-width: 992px) {
+	/*.carousel .container-fluid {
+	max-width: 100%;
+	}
+*/	.owl-carousel .item-first{
+	    display: block;
+	    text-align: center;
+	}
+	.carousel .item-first > div {
+		display: block;
+		
+	}
+
+
+	.carousel .item-first .text{
+		width: 100%;
+		padding: 30px 30px;
+	}
+
+	.carousel .item-first .img-holder-one,
+	.carousel .item-first .img-holder-two,
+	.carousel .item-first .img-holder-three{
+		display: inline-block;
+		padding: 0px;
+		width: auto;
+	}
+}
+
+/*Small -sm*/
+@media only screen and (max-width: 768px) {
+	.carousel .text h2 {
+		font-size: 36px;
+	}
+	.owl-carousel .owl-item img {
+    display: block;
+    width: 95%;
+    height: auto;
+	}
+}
+
+/*Custom */
+@media only screen and (max-width: 350px) {
+	.carousel .text h2 {
+		font-size: 30px;
+		line-height: 35px;
+		margin-bottom: 15px;
+	}
+	.carousel .item-first .text {
+		padding: 10px;
+	}
+	.carousel .text p {
+		margin-bottom: 15px;
+	}
+}
