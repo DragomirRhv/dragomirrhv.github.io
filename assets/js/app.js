@@ -7,7 +7,7 @@
 			var $faArrows = $('.fa-arrows-alt');
 			var $firstP = $('#fl-resp');
 
-				$faArrows.on('click',function(){
+				$faArrows.on('mouseenter',function(){
 					$firstP.animate({
 						opacity: 1
 					})
@@ -21,7 +21,7 @@
 			var $grid = $('.fa-th');
 			var $scndP = $('#scnd-p');
 
-				$grid.on('click',function(){
+				$grid.on('mouseenter',function(){
 					$scndP.animate({
 						opacity: 1
 					})
@@ -35,7 +35,7 @@
 			var $jQue = $('.fa-archive');
 			var $trdP = $('#trd-p');
 
-				$jQue.on('click',function(){
+				$jQue.on('mouseenter',function(){
 					$trdP.animate({
 						opacity: 1
 					})
@@ -48,7 +48,7 @@
 
 			var $code = $('.fa-code');
 			var $frthP = $('#frth-p');
-				$code.on('click',function(){
+				$code.on('mouseenter',function(){
 					$frthP.animate({
 						opacity: 1
 					})
