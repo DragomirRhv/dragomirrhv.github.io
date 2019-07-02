@@ -34,7 +34,7 @@
 
 				scrlButton.on('click', function(e) {
 				  e.preventDefault();
-				  $('html, body').animate({scrollTop:0,behaviour:'smooth'},3000);
+				  $('html, body').animate({scrollTop:0,behaviour:'smooth'},1000);
 				});
 
 		/*Expand Images Variables*/
