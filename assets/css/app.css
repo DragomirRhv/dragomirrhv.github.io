@@ -96,10 +96,10 @@ div#foot-id .project-section .projects {
 	margin-bottom: 25px;
 }
 
-div#foot-id .project-section .projects.middle {
+/*div#foot-id .project-section .projects.middle {
 	display: block;
 	margin: 0 auto;
-}
+}*/
 
 div#foot-id p>a {
 	text-decoration: none;

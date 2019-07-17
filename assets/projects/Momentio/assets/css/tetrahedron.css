@@ -1,0 +1,201 @@
+@keyframes rollOne {
+	0% {
+		top:-239px;
+		left: 500px;
+		transform:rotate(60deg);
+		border-bottom: 80px solid rgba(200,20,10,0.6)
+	}
+	10% {
+		top:-200px;
+		left: 450px;
+		transform:rotate(180deg);
+		border-bottom: 80px solid rgba(20,120,210,0.6)
+	}
+	20% {
+		top:-120px;
+		left: 400px;
+		transform:rotate(260deg);
+		border-bottom: 20px solid rgba(20,120,210,0.6)
+	}
+	30% {
+		top:-140px;
+		left: 300px;
+		transform:rotate(20deg);
+	}
+	40% {
+		top:-100px;
+		left: 200px;
+		transform:rotate(360deg);
+	}
+	50% {
+		top:-80px;
+		left: 150px;
+		transform:rotate(145deg);
+	}
+	60% {
+		top:-50px;
+		left: 100px;
+		transform:rotate(100deg);
+	}
+	60% {
+		top:-20px;
+		left: 50px;
+		transform:rotate(720deg);
+	}
+	70% {
+		top: 30px;
+		left: -50px;
+		transform:rotate(120deg);
+	}
+	80% {
+		top: 15px;
+		left: 50px;
+		transform:rotate(20deg);
+	}
+	85% {
+		top: 10px;
+		left: 40px;
+		transform:rotate(45deg);
+	}
+	90% {
+		top: 5px;
+		left: 20px;
+		transform:rotate(450deg);
+	}
+	95% {
+		top: 0px;
+		left: 0px;
+		transform:rotate(1200deg);
+	}
+	100% {
+		top: 0px;
+		left: 0px;
+		transform:rotate(22deg);
+	}
+
+}
+
+@keyframes rollTwo {
+	0% {
+		top: 10px;
+		left: 459px;
+		transform:rotate(160deg);
+	}
+	10% {
+		top: 40px;
+		left: 400px;
+		transform:rotate(240deg);
+	}
+	20% {
+		top: 80px;
+		left: 300px;
+		transform:rotate(120deg);
+	}
+	30% {
+		top:-140px;
+		left: 300px;
+		transform:rotate(20deg);
+	}
+	40% {
+		top: 50px;
+		left: 250px;
+		transform:rotate(70deg);
+	}
+	50% {
+		top: -5px;
+		left: 200px;
+		transform:rotate(145deg);
+	}
+	60% {
+		top:-50px;
+		left: 100px;
+		transform:rotate(100deg);
+	}
+	60% {
+		top: 20px;
+		left: 50px;
+		transform:rotate(420deg);
+	}
+	70% {
+		top: 35px;
+		left: -50px;
+		transform:rotate(120deg);
+	}
+	80% {
+		top: 25px;
+		left: 50px;
+		transform:rotate(20deg);
+	}
+	85% {
+		top: 45px;
+		left: 40px;
+		transform:rotate(45deg);
+	}
+	90% {
+		top: 35px;
+		left: 55px;
+		transform:rotate(450deg);
+	}
+	95% {
+		top: 0px;
+		left: 0px;
+		transform:rotate(1200deg);
+	}
+	100% {
+		top: -10px;
+		left: 50px;
+		transform:rotate(-26deg);
+	}
+
+}
+
+
+#info .services .tetrahedron {
+	position: absolute;
+	top: 180px;
+	left: -155px;
+}
+
+
+#info .services .tetrahedron:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid rgba(0,0,0,0.6);
+	transform: rotate(22deg);
+	z-index: -1;
+	animation: rollOne 25s forwards;
+}
+
+#info .services .tetrahedron:before {
+	content: '';
+	position: absolute;
+	top: -10px;
+	left: 50px;
+	width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 74px solid transparent;
+	border-bottom: 104px solid rgba(0,0,0,0.7);
+	transform: rotate(-26deg);
+	z-index: -1;
+	animation: rollTwo 25s forwards;
+}
+
+#info .services .tetrahedron span:before {
+	content: '';
+	position: absolute;
+	top: 71px;
+	left: -13px;
+	width: 0;
+	height: 0;
+	border-left: 90px solid transparent;
+	border-right: 107px solid transparent;
+	border-top: 44px solid rgba(0,0,0,0.5);
+	transform: rotate(-4deg);
+}

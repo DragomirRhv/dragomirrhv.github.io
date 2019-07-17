@@ -1,0 +1,123 @@
+/*Slider*/
+
+.carousel .container-fluid .item .carousel-text:before,
+.carousel .container-fluid .item .carousel-text:after {
+	content: '';
+	position: absolute;
+	transition: inherit;
+	z-index: -1;
+}
+
+.carousel .container-fluid .item .carousel-text:hover h2{
+	transition-delay: .7s;
+	color: #000;
+	font-weight: bolder;
+}
+
+.carousel .container-fluid .item .carousel-text:hover .separator{
+	transition-delay: .8s;
+	background-color: #000;
+}
+
+.carousel .container-fluid .item .carousel-text:hover h3{
+	transition-delay: .9s;
+	color: #000;
+	font-weight: bolder;
+}
+
+.carousel .container-fluid .item .carousel-text:hover:before {
+	transition-delay: 0s;
+	opacity: 0.5;
+}
+
+.carousel .container-fluid .item .carousel-text:hover:after {
+	background: rgba(255,255,255,0.6);
+	transition-delay: 0.4s;
+}
+
+/*First Slider*/
+
+.carousel .container-fluid .item .carousel-text.from-left:before, 
+.carousel .container-fluid .item .carousel-text.from-left:after {
+	top: 0;
+	width: 0;
+	height: 100%;
+}
+
+.carousel .container-fluid .item .carousel-text.from-left:before {
+	right: 0;
+	border: 2px solid rgba(255,255,255,0.6);
+	border-left: 0;
+	border-right: 0;	
+}
+
+.carousel .container-fluid .item .carousel-text.from-left:after {
+	left: 0;
+}
+
+.carousel .container-fluid .item .carousel-text.from-left:hover:before,
+.carousel .container-fluid .item .carousel-text.from-left:hover:after {
+	width: 100%;
+}
+
+.carousel .container-fluid .item .carousel-text.from-left:hover h2,
+.carousel .container-fluid .item .carousel-text.from-left:hover .separator,
+.carousel .container-fluid .item .carousel-text.from-left:hover h3 {
+	transition-delay: 0.7s;
+}
+
+/*Second Slider*/
+.carousel .container-fluid .item .carousel-text.from-top:before, 
+.carousel .container-fluid .item .carousel-text.from-top:after {
+	left: 0;
+	height: 0;
+	width: 100%;
+}
+
+.carousel .container-fluid .item .carousel-text.from-top:before {
+	bottom: 0;	
+	border: 2px solid rgba(255,255,255,0.6);
+	border-top: 0;
+	border-bottom: 0;
+}
+
+.carousel .container-fluid .item .carousel-text.from-top:after {
+	top: 0;
+	height: 0;
+}
+
+.carousel .container-fluid .item .carousel-text.from-top:hover:before,
+.carousel .container-fluid .item .carousel-text.from-top:hover:after {
+	height: 100%;
+}
+
+/*Third Slider*/
+
+.carousel .container-fluid .item .carousel-text.from-right:before, 
+.carousel .container-fluid .item .carousel-text.from-right:after {
+	top: 0;
+	width: 0;
+	height: 100%;
+}
+
+.carousel .container-fluid .item .carousel-text.from-right:before {
+	left: 0;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-left: 0;
+	border-right: 0;	
+}
+
+.carousel .container-fluid .item .carousel-text.from-right:after {
+	right: 0;
+}
+
+.carousel .container-fluid .item .carousel-text.from-right:hover:before,
+.carousel .container-fluid .item .carousel-text.from-right:hover:after {
+	width: 100%;
+}
+
+.carousel .container-fluid .item .carousel-text.from-right:hover h2,
+.carousel .container-fluid .item .carousel-text.from-right:hover .separator,
+.carousel .container-fluid .item .carousel-text.from-right:hover h3 {
+	transition-delay: 0.7s;
+}
