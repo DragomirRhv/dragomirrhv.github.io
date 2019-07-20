@@ -294,7 +294,7 @@
 }
 
 
-@media only screen and (max-width: 405px) {
+@media only screen and (max-width: 415px) {
 	#info .services div .ser-img ul#top {
 		top: 315px;
 	}
