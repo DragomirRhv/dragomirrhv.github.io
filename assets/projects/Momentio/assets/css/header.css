@@ -442,6 +442,11 @@ header .menu .nav-menu .social-icons li {
 	header .menu nav ul.social-icons {
 		height: 250px;
 	}
+	header .menu nav ul.squares li {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 40px;
+	}
 }
 
 /*Customize*/
