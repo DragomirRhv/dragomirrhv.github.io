@@ -178,3 +178,26 @@ button.btn3 div{
 	letter-spacing: 1px;
 	transition: all .2s ease-in-out;
 }
+@media only screen and (max-width: 500px) {
+	.carousel .container-fluid .item .carousel-text .separator {
+		width: 350px;
+	}
+	.carousel .container-fluid .item .carousel-text h2 {
+		font-size: 80px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.carousel .container-fluid .item .carousel-text .separator {
+		width: 250px;
+	}
+}
+
+@media only screen and (max-width: 331px) {
+	.carousel .container-fluid .item .carousel-text {
+		padding: 25px; 
+	}
+	.carousel .container-fluid .item .carousel-text h2 {
+		font-size: 70px;
+	}
+}
