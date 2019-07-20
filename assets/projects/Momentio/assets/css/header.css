@@ -347,15 +347,15 @@ header .menu .nav-menu .social-icons li {
 	}
 	header .menu nav ul.squares {
 		display: block;
-	    text-align: center;
-	    padding: 10px 20px 0px 20px;
-	    margin-top: 0px;
+	   	text-align: center;
+		padding: 10px 20px 0px 20px !important;
+	    	margin-top: 0px !important;
 	}
 	header .menu nav ul.squares li{
 		display: inline-block;
 		text-align: center;
 		margin-right: 60px;
-		margin-bottom: 20px;
+		margin-bottom: 20px !important;
 	}
 	header .menu nav ul.squares li#box-four,
 	header .menu nav ul.squares li#box-six{
