@@ -447,6 +447,9 @@ header .menu .nav-menu .social-icons li {
 		height: 100px;
 		margin-bottom: 40px;
 	}
+	header .menu nav ul li a {
+		font-size: 18px;
+	}
 }
 
 /*Customize*/
