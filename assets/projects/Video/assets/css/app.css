@@ -23,15 +23,17 @@
 
 body {
     min-height: 100vh;
+    background: #EFF9F2;
 }
 
 .about {
     margin: 0 auto;
-    height: 300px;
+    height: auto;
     max-width: 1300px;
-    background: #d1d1d1;
+    background: #78A1BB;
     margin-top: 50px;
-    border: 1px solid #b0b0b0;
+    border: 1px solid rgb(105, 142, 165);
+    border-radius: 8px;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.45), 0 4px 3px -3px rgba(0, 0, 0, 0.5);
     position: relative;
     padding: 20px;
@@ -43,19 +45,10 @@ body {
     width: 220px;
     margin-left: 20px;
     border-radius: 100%;
-    padding: 20px;
     display: inline-block;
     position: absolute;
-    
-    top: -300px;
-    opacity:0;
-    transition: 1s;
 }
 
-.about:hover div.photo-holder{
-    top: 30px;
-    opacity: 1;
-} 
 
 .about div.photo-holder img {
     display: block;
@@ -64,16 +57,9 @@ body {
 }
 
 .about div.content-holder{
-    position: absolute;
-    display: inline-block;
-    padding: 0px 50px;
-
-    left: 50px;
-    transition: 0.5s;
-}
-
-.about:hover div.content-holder{
-    left: 200px;
+    position: static;
+    padding: 0px;
+    padding-left: 300px;
 }
 
 .about h2 {
@@ -98,26 +84,23 @@ body {
 }
 
 .git {
-    background: linear-gradient(to right, rgb(171, 171, 172), rgb(198, 202, 202));
-    width: 250px;
-    height: 125px;
-	text-align: center;
-	font-size: 22px;
-	font-family: sans-serif;
-	letter-spacing: 0.2em;
-	border: 1px solid rgb(82, 82, 82);
-	border-radius: 2em;
-	transform: perspective(500px) rotateY(-15deg);
-	text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.45), 0 4px 3px -3px rgba(0, 0, 0, 0.5);
-	transition: 0.5s;
-	position: relative;
-    overflow: hidden;
-    margin: 0 auto;
+        background: #78A1BB;
+        width: 300px;
+        height: 55px;
+        text-align: center;
+        font-size: 22px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        border: 1px solid rgb(105, 142, 165);
+        border-radius: 4px;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.45), 0 4px 3px -3px rgba(0, 0, 0, 0.5);
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
 }
 
 .git p{
-    height: 65px;
+    height: 32px;
     
     position: absolute;
     top: 0;
@@ -140,12 +123,6 @@ body {
 .git p a:focus {
     text-decoration: none;
     outline: none;
-}
-
-.git:hover {
-	transform: perspective(500px) rotateY(15deg);
-	text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.45), 0 4px 3px -3px rgba(0, 0, 0, 0.5);
 }
 
 .git::before {
@@ -310,23 +287,13 @@ body {
 
 /*Large -lg*/
 @media only screen and (max-width: 1220px) {
-    .about {
-        height: auto;
-    }
-	.about div.photo-holder{
-        top: 30px;
-        opacity: 1;
-        margin-left: 0px;
-    }
     .about div.photo-holder img {
         display: block;
         width: auto;
         height: 100%;
     }    
     .about div.content-holder {
-        position: static;
-        padding: 0px;
-        padding-left: 200px;
+        padding-left: 250px;
     }
 }
 
@@ -338,18 +305,15 @@ body {
     
 }
 
-
 /*Small -sm*/
 @media only screen and (max-width: 768px) {
-    .about {
-        padding: 20px 10px;
-    }
     .about div.photo-holder {
         width: 100%;
         text-align: center;
         padding: 0px;
         position: static;
         margin-bottom: 30px;
+        margin-left: 0px;
     }
     .about div.photo-holder img {
         display: inline-block;
