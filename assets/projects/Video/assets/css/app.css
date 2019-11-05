@@ -92,6 +92,11 @@ body {
    font-family: 'Roboto', sans-serif;
 }
 
+.about p span#for_btn {
+    font-weight: 600;
+    font-style: oblique;
+}
+
 .git {
     background: linear-gradient(to right, rgb(171, 171, 172), rgb(198, 202, 202));
     width: 250px;
