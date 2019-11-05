@@ -1,0 +1,380 @@
+@import url('reset.css');
+@import url('bootstrap.css');
+
+
+@keyframes glow {
+    0%{ 
+        box-shadow: 0 0 0 0 rgba(255, 0, 66, 1);
+    }
+    100% { 
+        box-shadow: 0 0 0 8px rgba(255, 0, 66, 0);
+    }
+}
+
+@keyframes glowWhite {
+    0%{ 
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+    }
+    100% { 
+        box-shadow: 0 0 0 8px rgba(255, 255, 255, 0);
+    }
+}
+
+
+body {
+    min-height: 100vh;
+}
+
+.about {
+    margin: 0 auto;
+    height: 300px;
+    max-width: 1300px;
+    background: #d1d1d1;
+    margin-top: 50px;
+    border: 1px solid #b0b0b0;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.45), 0 4px 3px -3px rgba(0, 0, 0, 0.5);
+    position: relative;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.about div.photo-holder {
+    height: 220px;
+    width: 220px;
+    margin-left: 20px;
+    border-radius: 100%;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    
+    top: -300px;
+    opacity:0;
+    transition: 1s;
+}
+
+.about:hover div.photo-holder{
+    top: 30px;
+    opacity: 1;
+} 
+
+.about div.photo-holder img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.about div.content-holder{
+    position: absolute;
+    display: inline-block;
+    padding: 0px 50px;
+
+    left: 50px;
+    transition: 0.5s;
+}
+
+.about:hover div.content-holder{
+    left: 200px;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-indent: 30px;
+}
+
+.about h2 span {
+    font-weight: 600;
+}
+
+.about p {
+   margin-bottom: 10px;
+   text-indent: 30px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.git {
+    background: linear-gradient(to right, rgb(171, 171, 172), rgb(198, 202, 202));
+    width: 250px;
+    height: 125px;
+	text-align: center;
+	font-size: 22px;
+	font-family: sans-serif;
+	letter-spacing: 0.2em;
+	border: 1px solid rgb(82, 82, 82);
+	border-radius: 2em;
+	transform: perspective(500px) rotateY(-15deg);
+	text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.45), 0 4px 3px -3px rgba(0, 0, 0, 0.5);
+	transition: 0.5s;
+	position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.git p{
+    height: 65px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.git p a{
+    padding: 104px 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.git p a:hover,
+.git p a:visited,
+.git p a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.git:hover {
+	transform: perspective(500px) rotateY(15deg);
+	text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.45), 0 4px 3px -3px rgba(0, 0, 0, 0.5);
+}
+
+.git::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, transparent, white, transparent);
+	left: -100%;
+	transition: 0.5s;
+}
+
+.git:hover::before {
+	left: 100%;
+}
+
+.video-shell {
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.video-shell .video-frame{
+    position: relative;
+    max-width: 1300px;
+    background: #000;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.45), 0 4px 3px -3px rgba(0, 0, 0, 0.5);
+}
+
+.video-shell .video-frame video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.video-shell .video-frame .controls-shell {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.video-shell .video-frame .controls-shell:before{
+    content: '';
+    display: block;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,0.8575805322128851) 15%, rgba(209,0,255,0) 100%);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+
+.video-shell .video-frame.ended .controls-shell:before,
+.video-shell .video-frame .controls-shell:hover:before {
+    opacity: 1;
+}
+
+.video-shell .video-frame.play .controls-shell:hover {
+    background: transparent;
+}
+
+.video-shell .video-frame .controls-shell .controls-view {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+
+.video-shell .video-frame .controls-shell .play {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 1000px;
+
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.video-shell .video-frame .controls-shell .play .icon-pause,
+.video-shell .video-frame .controls-shell .play .icon-reload {
+    display: none;
+}
+
+.video-shell .video-frame.ended .controls-shell .play,
+.video-shell .video-frame:hover .controls-shell .play {
+    opacity: 1;
+    top: 0;
+    animation: glow 1s infinite;
+}
+
+.video-shell .video-frame .controls-shell .play.pause,
+.video-shell .video-frame .controls-shell .play.repeat {
+    animation: glowWhite 1s infinite;
+}
+
+
+.video-shell .video-frame .controls-shell .play.pause .icon-play {
+    display: none;
+}
+
+.video-shell .video-frame .controls-shell .play.pause .icon-pause {
+    display: block;
+}
+
+.video-shell .video-frame.ended .controls-shell .play.repeat .icon-reload {
+    display: block;
+}
+
+.video-shell .video-frame .controls-shell .play.repeat .icon-play {
+    display: none;
+}
+
+.video-shell .video-frame .controls-shell .controls-view .duration {
+    height: 10px;
+    position: absolute;
+    bottom: 60px;
+    left: 80px;
+    right: 80px;
+    overflow: hidden;
+    border-radius: 150px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.video-shell .video-frame.ended .controls-shell .controls-view .duration,
+.video-shell .video-frame:hover .controls-shell .controls-view .duration {
+    opacity: 1;
+    bottom: 100px;
+}
+
+.video-shell .video-frame:hover .controls-shell .controls-view .duration .time-span {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    background: rgba(189,0,49);
+    background: linear-gradient(0deg, rgba(189,0,49,1) 0%, rgba(249, 0, 65, 1) 49%, rgba(161, 0, 41, 1) 100% );
+
+    position: relative;
+    right: -100%;
+}
+
+/* Responsive */
+
+/*Large -lg*/
+@media only screen and (max-width: 1220px) {
+    .about {
+        height: auto;
+    }
+	.about div.photo-holder{
+        top: 30px;
+        opacity: 1;
+        margin-left: 0px;
+    }
+    .about div.photo-holder img {
+        display: block;
+        width: auto;
+        height: 100%;
+    }    
+    .about div.content-holder {
+        position: static;
+        padding: 0px;
+        padding-left: 200px;
+    }
+}
+
+/* Customize for -m */
+@media only screen and (max-width: 1024px){
+    .video-shell .video-frame:hover .controls-shell .controls-view .duration {
+        bottom: 60px !important;
+    }
+    
+}
+
+
+/*Small -sm*/
+@media only screen and (max-width: 768px) {
+    .about {
+        padding: 20px 10px;
+    }
+    .about div.photo-holder {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+        position: static;
+        margin-bottom: 30px;
+    }
+    .about div.photo-holder img {
+        display: inline-block;
+    }
+    .about div.content-holder {
+        padding-left: 0px;
+    }
+    .video-shell .video-frame:hover .controls-shell .controls-view .duration {
+        bottom: 30px !important;
+        left: 25px;
+        right: 25px;
+        height: 6px;
+    }
+}
+
+
+/*Extra small -xs*/
+@media only screen and (max-width: 500px) {
+    .video-shell .video-frame .controls-shell .play {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+	
+}
+
+
+@media only screen and (max-width: 266px) {
+	
+}

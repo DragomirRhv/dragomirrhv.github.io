@@ -23,7 +23,7 @@
 
 			$h_carousel.owlCarousel({
 	 		items: 1, 
-	 		autoplay: true,
+	 		autoplay: false,
 	 		autoplayTimeout: 3000,
 	 		autoplaySpeed: 1900,
 	 		autoplayHoverPause: true,
