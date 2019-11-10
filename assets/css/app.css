@@ -36,6 +36,7 @@ div#foot-id .project-section .pro-icons {
 	font-size: 28px;
 	text-align: center;
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 
@@ -44,13 +45,11 @@ div#foot-id .project-section .pro-icons i {
 	cursor: pointer;
 	position: relative;
 	width: 23%;
-	margin-bottom: 40px;
 }
 
 div#foot-id .project-section .pro-icons  p{
-	font-size: 16px;
-	opacity: 0;
-	text-transform: uppercase;
+	font-size: 18px;
+	opacity: 1;
 	position: absolute;
 }
 
