@@ -1,0 +1,18 @@
+body {
+    background-color: #ccc;
+}
+
+.card-action ul li {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.card-action ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.card-action ul li a{
+    width: 100%;
+    font-size: 1.2rem;
+}
