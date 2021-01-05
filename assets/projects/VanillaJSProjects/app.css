@@ -17,7 +17,7 @@ body {
     font-size: 1.2rem;
 }
 
-@media only screen and (max-width:768px) {
+@media (max-width:768px) {
 	.card-action ul li {
         width: 100%;
     }
@@ -27,7 +27,7 @@ body {
     }
 }
 
-@media only screen and (max-width:400px) {
+@media (max-width:400px) {
     .card-action {
         padding: 16px 0px !important;
     }
