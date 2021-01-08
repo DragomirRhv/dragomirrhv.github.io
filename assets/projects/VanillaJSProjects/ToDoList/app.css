@@ -1,3 +1,7 @@
 .delete-item i {
     cursor: pointer;
 }
+
+.row {
+    margin-left: 0px !important;
+}
