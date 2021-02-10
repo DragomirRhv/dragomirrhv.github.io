@@ -85,8 +85,8 @@ body {
 
 .git {
         background: #78A1BB;
-        width: 300px;
-        height: 55px;
+        max-width: 300px;
+        min-height: 100px;
         text-align: center;
         font-size: 22px;
         text-transform: uppercase;
